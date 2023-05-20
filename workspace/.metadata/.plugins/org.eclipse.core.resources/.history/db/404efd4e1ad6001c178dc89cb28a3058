@@ -1,0 +1,1328 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_aDOeULHQEeyjNJ1OvHsKwg" name="NewModel">
+  <packagedElement xmi:type="uml:Activity" xmi:id="_RJFy0LUbEeyiM_nmpdDFKw" name="NewModel" node="_LRbmcLUcEeyiM_nmpdDFKw _c15iwLUcEeyiM_nmpdDFKw _qfbTgLUcEeyiM_nmpdDFKw _vYFrkLUcEeyiM_nmpdDFKw _FsrvALUdEeyiM_nmpdDFKw _LNFcgLUdEeyiM_nmpdDFKw _Tvap8LUdEeyiM_nmpdDFKw _i6iJQLUdEeyiM_nmpdDFKw _u00J8LUdEeyiM_nmpdDFKw _GCNdoLUeEeyiM_nmpdDFKw _QD2hsLUeEeyiM_nmpdDFKw _m-4TALUeEeyiM_nmpdDFKw _lquuELUfEeyiM_nmpdDFKw _x5xd0LUfEeyiM_nmpdDFKw _At_gELUgEeyiM_nmpdDFKw _YZwKwLUgEeyiM_nmpdDFKw _oxt3sLUgEeyiM_nmpdDFKw _1nTqELUgEeyiM_nmpdDFKw _50NIULUgEeyiM_nmpdDFKw _J88tgLUhEeyiM_nmpdDFKw _QV8P4LUhEeyiM_nmpdDFKw" group="_UB_SkLUbEeyiM_nmpdDFKw _XWODcLUbEeyiM_nmpdDFKw _Yq27ILUbEeyiM_nmpdDFKw _V_nc4LUbEeyiM_nmpdDFKw" partition="_UB_SkLUbEeyiM_nmpdDFKw _V_nc4LUbEeyiM_nmpdDFKw _XWODcLUbEeyiM_nmpdDFKw _Yq27ILUbEeyiM_nmpdDFKw">
+    <ownedBehavior xmi:type="uml:Activity" xmi:id="_klAxQLUhEeyiM_nmpdDFKw" name="NewModel" node="_klAxhLUhEeyiM_nmpdDFKw _klAxhbUhEeyiM_nmpdDFKw _klAxhrUhEeyiM_nmpdDFKw _klAxh7UhEeyiM_nmpdDFKw _klAxiLUhEeyiM_nmpdDFKw _klAxibUhEeyiM_nmpdDFKw _klAxirUhEeyiM_nmpdDFKw _klAxi7UhEeyiM_nmpdDFKw _klAxjLUhEeyiM_nmpdDFKw _klAxjbUhEeyiM_nmpdDFKw _klAxjrUhEeyiM_nmpdDFKw _klAxj7UhEeyiM_nmpdDFKw _klAxkbUhEeyiM_nmpdDFKw _klAxkrUhEeyiM_nmpdDFKw _klAxk7UhEeyiM_nmpdDFKw _klAxlLUhEeyiM_nmpdDFKw _klAxlbUhEeyiM_nmpdDFKw _klAxlrUhEeyiM_nmpdDFKw _klAxl7UhEeyiM_nmpdDFKw _klAxmLUhEeyiM_nmpdDFKw _klAxmbUhEeyiM_nmpdDFKw" group="_klAxQbUhEeyiM_nmpdDFKw _klAxQrUhEeyiM_nmpdDFKw _klAxQ7UhEeyiM_nmpdDFKw _klAxRLUhEeyiM_nmpdDFKw" partition="_klAxQbUhEeyiM_nmpdDFKw _klAxQrUhEeyiM_nmpdDFKw _klAxQ7UhEeyiM_nmpdDFKw _klAxRLUhEeyiM_nmpdDFKw">
+      <edge xmi:type="uml:ControlFlow" xmi:id="_klAxRbUhEeyiM_nmpdDFKw" target="_klAxhbUhEeyiM_nmpdDFKw" source="_klAxhLUhEeyiM_nmpdDFKw">
+        <guard xmi:type="uml:LiteralBoolean" xmi:id="_klAxRrUhEeyiM_nmpdDFKw" name="_To__guard" value="true"/>
+        <weight xmi:type="uml:LiteralInteger" xmi:id="_klAxR7UhEeyiM_nmpdDFKw" name="_To__weight"/>
+      </edge>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_klAxSLUhEeyiM_nmpdDFKw" target="_klAxh7UhEeyiM_nmpdDFKw" source="_klAxhbUhEeyiM_nmpdDFKw">
+        <guard xmi:type="uml:LiteralBoolean" xmi:id="_klAxSbUhEeyiM_nmpdDFKw" name="_To_Присвоение статуса пользователям_guard" value="true"/>
+        <weight xmi:type="uml:LiteralInteger" xmi:id="_klAxSrUhEeyiM_nmpdDFKw" name="_To_Присвоение статуса пользователям_weight"/>
+      </edge>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_klAxS7UhEeyiM_nmpdDFKw" target="_klAxhrUhEeyiM_nmpdDFKw" source="_klAxh7UhEeyiM_nmpdDFKw">
+        <guard xmi:type="uml:LiteralBoolean" xmi:id="_klAxTLUhEeyiM_nmpdDFKw" name="Присвоение статуса пользователям_To_Сохранение данных пользователей_guard" value="true"/>
+        <weight xmi:type="uml:LiteralInteger" xmi:id="_klAxTbUhEeyiM_nmpdDFKw" name="Присвоение статуса пользователям_To_Сохранение данных пользователей_weight"/>
+      </edge>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_klAxTrUhEeyiM_nmpdDFKw" target="_klAxjLUhEeyiM_nmpdDFKw" source="_klAxibUhEeyiM_nmpdDFKw">
+        <guard xmi:type="uml:LiteralBoolean" xmi:id="_klAxT7UhEeyiM_nmpdDFKw" name="_To_Сохранение теста_guard" value="true"/>
+        <weight xmi:type="uml:LiteralInteger" xmi:id="_klAxULUhEeyiM_nmpdDFKw" name="_To_Сохранение теста_weight"/>
+      </edge>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_klAxUbUhEeyiM_nmpdDFKw" target="_klAxirUhEeyiM_nmpdDFKw" source="_klAxjLUhEeyiM_nmpdDFKw">
+        <guard xmi:type="uml:LiteralBoolean" xmi:id="_klAxUrUhEeyiM_nmpdDFKw" name="Сохранение теста_To__guard" value="true"/>
+        <weight xmi:type="uml:LiteralInteger" xmi:id="_klAxU7UhEeyiM_nmpdDFKw" name="Сохранение теста_To__weight"/>
+      </edge>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_klAxVLUhEeyiM_nmpdDFKw" target="_klAxjrUhEeyiM_nmpdDFKw" source="_klAxhrUhEeyiM_nmpdDFKw">
+        <guard xmi:type="uml:LiteralBoolean" xmi:id="_klAxVbUhEeyiM_nmpdDFKw" name="Сохранение данных пользователей_To__guard" value="true"/>
+        <weight xmi:type="uml:LiteralInteger" xmi:id="_klAxVrUhEeyiM_nmpdDFKw" name="Сохранение данных пользователей_To__weight"/>
+      </edge>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_klAxV7UhEeyiM_nmpdDFKw" target="_klAxiLUhEeyiM_nmpdDFKw" source="_klAxjrUhEeyiM_nmpdDFKw">
+        <guard xmi:type="uml:LiteralBoolean" xmi:id="_klAxWLUhEeyiM_nmpdDFKw" name="_To__guard" value="true"/>
+        <weight xmi:type="uml:LiteralInteger" xmi:id="_klAxWbUhEeyiM_nmpdDFKw" name="_To__weight"/>
+      </edge>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_klAxWrUhEeyiM_nmpdDFKw" target="_klAxjbUhEeyiM_nmpdDFKw" source="_klAxjrUhEeyiM_nmpdDFKw">
+        <guard xmi:type="uml:LiteralBoolean" xmi:id="_klAxW7UhEeyiM_nmpdDFKw" name="_To__guard" value="true"/>
+        <weight xmi:type="uml:LiteralInteger" xmi:id="_klAxXLUhEeyiM_nmpdDFKw" name="_To__weight"/>
+      </edge>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_klAxXbUhEeyiM_nmpdDFKw" target="_klAxj7UhEeyiM_nmpdDFKw" source="_klAxiLUhEeyiM_nmpdDFKw">
+        <guard xmi:type="uml:LiteralBoolean" xmi:id="_klAxXrUhEeyiM_nmpdDFKw" name="_To__guard" value="true"/>
+        <weight xmi:type="uml:LiteralInteger" xmi:id="_klAxX7UhEeyiM_nmpdDFKw" name="_To__weight"/>
+      </edge>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_klAxYLUhEeyiM_nmpdDFKw" target="_klAxj7UhEeyiM_nmpdDFKw" source="_klAxjbUhEeyiM_nmpdDFKw">
+        <guard xmi:type="uml:LiteralBoolean" xmi:id="_klAxYbUhEeyiM_nmpdDFKw" name="_To__guard" value="true"/>
+        <weight xmi:type="uml:LiteralInteger" xmi:id="_klAxYrUhEeyiM_nmpdDFKw" name="_To__weight"/>
+      </edge>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_klAxY7UhEeyiM_nmpdDFKw" target="_klAxi7UhEeyiM_nmpdDFKw" source="_klAxj7UhEeyiM_nmpdDFKw">
+        <guard xmi:type="uml:LiteralBoolean" xmi:id="_klAxZLUhEeyiM_nmpdDFKw" name="_To_Поиск пользователя в системе_guard" value="true"/>
+        <weight xmi:type="uml:LiteralInteger" xmi:id="_klAxZbUhEeyiM_nmpdDFKw" name="_To_Поиск пользователя в системе_weight"/>
+      </edge>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_klAxZrUhEeyiM_nmpdDFKw" target="_klAxkbUhEeyiM_nmpdDFKw" source="_klAxi7UhEeyiM_nmpdDFKw">
+        <guard xmi:type="uml:LiteralBoolean" xmi:id="_klAxZ7UhEeyiM_nmpdDFKw" name="Поиск пользователя в системе_To__guard" value="true"/>
+        <weight xmi:type="uml:LiteralInteger" xmi:id="_klAxaLUhEeyiM_nmpdDFKw" name="Поиск пользователя в системе_To__weight"/>
+      </edge>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_klAxabUhEeyiM_nmpdDFKw" target="_klAxibUhEeyiM_nmpdDFKw" source="_klAxkbUhEeyiM_nmpdDFKw">
+        <guard xmi:type="uml:LiteralBoolean" xmi:id="_klAxarUhEeyiM_nmpdDFKw" name="_To__guard" value="true"/>
+        <weight xmi:type="uml:LiteralInteger" xmi:id="_klAxa7UhEeyiM_nmpdDFKw" name="_To__weight"/>
+      </edge>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_klAxbLUhEeyiM_nmpdDFKw" target="_klAxkrUhEeyiM_nmpdDFKw" source="_klAxkbUhEeyiM_nmpdDFKw">
+        <guard xmi:type="uml:LiteralBoolean" xmi:id="_klAxbbUhEeyiM_nmpdDFKw" name="_To__guard" value="true"/>
+        <weight xmi:type="uml:LiteralInteger" xmi:id="_klAxbrUhEeyiM_nmpdDFKw" name="_To__weight"/>
+      </edge>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_klAxb7UhEeyiM_nmpdDFKw" target="_klAxk7UhEeyiM_nmpdDFKw" source="_klAxirUhEeyiM_nmpdDFKw">
+        <guard xmi:type="uml:LiteralBoolean" xmi:id="_klAxcLUhEeyiM_nmpdDFKw" name="_To_Отправка теста на тестирование_guard" value="true"/>
+        <weight xmi:type="uml:LiteralInteger" xmi:id="_klAxcbUhEeyiM_nmpdDFKw" name="_To_Отправка теста на тестирование_weight"/>
+      </edge>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_klAxcrUhEeyiM_nmpdDFKw" target="_klAxlLUhEeyiM_nmpdDFKw" source="_klAxkrUhEeyiM_nmpdDFKw">
+        <guard xmi:type="uml:LiteralBoolean" xmi:id="_klAxc7UhEeyiM_nmpdDFKw" name="_To_Поиск теста в системе_guard" value="true"/>
+        <weight xmi:type="uml:LiteralInteger" xmi:id="_klAxdLUhEeyiM_nmpdDFKw" name="_To_Поиск теста в системе_weight"/>
+      </edge>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_klAxdbUhEeyiM_nmpdDFKw" target="_klAxlrUhEeyiM_nmpdDFKw" source="_klAxlbUhEeyiM_nmpdDFKw">
+        <guard xmi:type="uml:LiteralBoolean" xmi:id="_klAxdrUhEeyiM_nmpdDFKw" name="_To_Оценка тестирования_guard" value="true"/>
+        <weight xmi:type="uml:LiteralInteger" xmi:id="_klAxd7UhEeyiM_nmpdDFKw" name="_To_Оценка тестирования_weight"/>
+      </edge>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_klAxeLUhEeyiM_nmpdDFKw" target="_klAxl7UhEeyiM_nmpdDFKw" source="_klAxlrUhEeyiM_nmpdDFKw">
+        <guard xmi:type="uml:LiteralBoolean" xmi:id="_klAxebUhEeyiM_nmpdDFKw" name="Оценка тестирования_To_Сохранение результатов тестирования_guard" value="true"/>
+        <weight xmi:type="uml:LiteralInteger" xmi:id="_klAxerUhEeyiM_nmpdDFKw" name="Оценка тестирования_To_Сохранение результатов тестирования_weight"/>
+      </edge>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_klAxe7UhEeyiM_nmpdDFKw" target="_klAxlbUhEeyiM_nmpdDFKw" source="_klAxlLUhEeyiM_nmpdDFKw">
+        <guard xmi:type="uml:LiteralBoolean" xmi:id="_klAxfLUhEeyiM_nmpdDFKw" name="Поиск теста в системе_To__guard" value="true"/>
+        <weight xmi:type="uml:LiteralInteger" xmi:id="_klAxfbUhEeyiM_nmpdDFKw" name="Поиск теста в системе_To__weight"/>
+      </edge>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_klAxfrUhEeyiM_nmpdDFKw" target="_klAxmLUhEeyiM_nmpdDFKw" source="_klAxl7UhEeyiM_nmpdDFKw">
+        <guard xmi:type="uml:LiteralBoolean" xmi:id="_klAxf7UhEeyiM_nmpdDFKw" name="Сохранение результатов тестирования_To__guard" value="true"/>
+        <weight xmi:type="uml:LiteralInteger" xmi:id="_klAxgLUhEeyiM_nmpdDFKw" name="Сохранение результатов тестирования_To__weight"/>
+      </edge>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_klAxgbUhEeyiM_nmpdDFKw" target="_klAxmbUhEeyiM_nmpdDFKw" source="_klAxmLUhEeyiM_nmpdDFKw">
+        <guard xmi:type="uml:LiteralBoolean" xmi:id="_klAxgrUhEeyiM_nmpdDFKw" name="_To__guard" value="true"/>
+        <weight xmi:type="uml:LiteralInteger" xmi:id="_klAxg7UhEeyiM_nmpdDFKw" name="_To__weight"/>
+      </edge>
+      <group xmi:type="uml:ActivityPartition" xmi:id="_klAxQbUhEeyiM_nmpdDFKw" name="Система" node="_klAxhrUhEeyiM_nmpdDFKw _klAxh7UhEeyiM_nmpdDFKw _klAxi7UhEeyiM_nmpdDFKw _klAxjLUhEeyiM_nmpdDFKw _klAxjrUhEeyiM_nmpdDFKw _klAxj7UhEeyiM_nmpdDFKw _klAxkbUhEeyiM_nmpdDFKw _klAxk7UhEeyiM_nmpdDFKw _klAxlLUhEeyiM_nmpdDFKw _klAxlrUhEeyiM_nmpdDFKw _klAxl7UhEeyiM_nmpdDFKw"/>
+      <group xmi:type="uml:ActivityPartition" xmi:id="_klAxQrUhEeyiM_nmpdDFKw" name="Администратор" node="_klAxhLUhEeyiM_nmpdDFKw _klAxhbUhEeyiM_nmpdDFKw _klAxmLUhEeyiM_nmpdDFKw _klAxmbUhEeyiM_nmpdDFKw"/>
+      <group xmi:type="uml:ActivityPartition" xmi:id="_klAxQ7UhEeyiM_nmpdDFKw" name="Преподаватель" node="_klAxiLUhEeyiM_nmpdDFKw _klAxibUhEeyiM_nmpdDFKw _klAxirUhEeyiM_nmpdDFKw"/>
+      <group xmi:type="uml:ActivityPartition" xmi:id="_klAxRLUhEeyiM_nmpdDFKw" name="Студент" node="_klAxjbUhEeyiM_nmpdDFKw _klAxkrUhEeyiM_nmpdDFKw _klAxlbUhEeyiM_nmpdDFKw"/>
+      <node xmi:type="uml:InitialNode" xmi:id="_klAxhLUhEeyiM_nmpdDFKw" name="" outgoing="_klAxRbUhEeyiM_nmpdDFKw" inPartition="_klAxQrUhEeyiM_nmpdDFKw"/>
+      <node xmi:type="uml:CallBehaviorAction" xmi:id="_klAxhbUhEeyiM_nmpdDFKw" incoming="_klAxRbUhEeyiM_nmpdDFKw" outgoing="_klAxSLUhEeyiM_nmpdDFKw" inPartition="_klAxQrUhEeyiM_nmpdDFKw" behavior="_6ZzM4LUZEeyiM_nmpdDFKw"/>
+      <node xmi:type="uml:OpaqueAction" xmi:id="_klAxhrUhEeyiM_nmpdDFKw" name="Сохранение данных пользователей" incoming="_klAxS7UhEeyiM_nmpdDFKw" outgoing="_klAxVLUhEeyiM_nmpdDFKw" inPartition="_klAxQbUhEeyiM_nmpdDFKw">
+        <body>// TODO body of OpaqueAction1</body>
+      </node>
+      <node xmi:type="uml:OpaqueAction" xmi:id="_klAxh7UhEeyiM_nmpdDFKw" name="Присвоение статуса пользователям" incoming="_klAxSLUhEeyiM_nmpdDFKw" outgoing="_klAxS7UhEeyiM_nmpdDFKw" inPartition="_klAxQbUhEeyiM_nmpdDFKw">
+        <body>// TODO body of OpaqueAction2</body>
+      </node>
+      <node xmi:type="uml:CallBehaviorAction" xmi:id="_klAxiLUhEeyiM_nmpdDFKw" incoming="_klAxV7UhEeyiM_nmpdDFKw" outgoing="_klAxXbUhEeyiM_nmpdDFKw" inPartition="_klAxQ7UhEeyiM_nmpdDFKw" behavior="_lJhU4LUTEeyiM_nmpdDFKw"/>
+      <node xmi:type="uml:CallBehaviorAction" xmi:id="_klAxibUhEeyiM_nmpdDFKw" incoming="_klAxabUhEeyiM_nmpdDFKw" outgoing="_klAxTrUhEeyiM_nmpdDFKw" inPartition="_klAxQ7UhEeyiM_nmpdDFKw" behavior="_XBsGQLUNEeyiM_nmpdDFKw"/>
+      <node xmi:type="uml:CallBehaviorAction" xmi:id="_klAxirUhEeyiM_nmpdDFKw" incoming="_klAxUbUhEeyiM_nmpdDFKw" outgoing="_klAxb7UhEeyiM_nmpdDFKw" inPartition="_klAxQ7UhEeyiM_nmpdDFKw" behavior="_kjgIoLUREeyiM_nmpdDFKw"/>
+      <node xmi:type="uml:OpaqueAction" xmi:id="_klAxi7UhEeyiM_nmpdDFKw" name="Поиск пользователя в системе" incoming="_klAxY7UhEeyiM_nmpdDFKw" outgoing="_klAxZrUhEeyiM_nmpdDFKw" inPartition="_klAxQbUhEeyiM_nmpdDFKw">
+        <body>// TODO body of OpaqueAction3</body>
+      </node>
+      <node xmi:type="uml:OpaqueAction" xmi:id="_klAxjLUhEeyiM_nmpdDFKw" name="Сохранение теста" incoming="_klAxTrUhEeyiM_nmpdDFKw" outgoing="_klAxUbUhEeyiM_nmpdDFKw" inPartition="_klAxQbUhEeyiM_nmpdDFKw">
+        <body>// TODO body of OpaqueAction4</body>
+      </node>
+      <node xmi:type="uml:CallBehaviorAction" xmi:id="_klAxjbUhEeyiM_nmpdDFKw" incoming="_klAxWrUhEeyiM_nmpdDFKw" outgoing="_klAxYLUhEeyiM_nmpdDFKw" inPartition="_klAxRLUhEeyiM_nmpdDFKw" behavior="_lJhU4LUTEeyiM_nmpdDFKw"/>
+      <node xmi:type="uml:ForkNode" xmi:id="_klAxjrUhEeyiM_nmpdDFKw" name="" incoming="_klAxVLUhEeyiM_nmpdDFKw" outgoing="_klAxV7UhEeyiM_nmpdDFKw _klAxWrUhEeyiM_nmpdDFKw" inPartition="_klAxQbUhEeyiM_nmpdDFKw"/>
+      <node xmi:type="uml:JoinNode" xmi:id="_klAxj7UhEeyiM_nmpdDFKw" name="" incoming="_klAxXbUhEeyiM_nmpdDFKw _klAxYLUhEeyiM_nmpdDFKw" outgoing="_klAxY7UhEeyiM_nmpdDFKw" inPartition="_klAxQbUhEeyiM_nmpdDFKw">
+        <joinSpec xmi:type="uml:LiteralBoolean" xmi:id="_klAxkLUhEeyiM_nmpdDFKw" name="Join1" value="true"/>
+      </node>
+      <node xmi:type="uml:ForkNode" xmi:id="_klAxkbUhEeyiM_nmpdDFKw" name="" incoming="_klAxZrUhEeyiM_nmpdDFKw" outgoing="_klAxabUhEeyiM_nmpdDFKw _klAxbLUhEeyiM_nmpdDFKw" inPartition="_klAxQbUhEeyiM_nmpdDFKw"/>
+      <node xmi:type="uml:CallBehaviorAction" xmi:id="_klAxkrUhEeyiM_nmpdDFKw" incoming="_klAxbLUhEeyiM_nmpdDFKw" outgoing="_klAxcrUhEeyiM_nmpdDFKw" inPartition="_klAxRLUhEeyiM_nmpdDFKw" behavior="_uc9WgLUQEeyiM_nmpdDFKw"/>
+      <node xmi:type="uml:OpaqueAction" xmi:id="_klAxk7UhEeyiM_nmpdDFKw" name="Отправка теста на тестирование" incoming="_klAxb7UhEeyiM_nmpdDFKw" inPartition="_klAxQbUhEeyiM_nmpdDFKw">
+        <body>// TODO body of OpaqueAction5</body>
+      </node>
+      <node xmi:type="uml:OpaqueAction" xmi:id="_klAxlLUhEeyiM_nmpdDFKw" name="Поиск теста в системе" incoming="_klAxcrUhEeyiM_nmpdDFKw" outgoing="_klAxe7UhEeyiM_nmpdDFKw" inPartition="_klAxQbUhEeyiM_nmpdDFKw">
+        <body>// TODO body of OpaqueAction6</body>
+      </node>
+      <node xmi:type="uml:CallBehaviorAction" xmi:id="_klAxlbUhEeyiM_nmpdDFKw" incoming="_klAxe7UhEeyiM_nmpdDFKw" outgoing="_klAxdbUhEeyiM_nmpdDFKw" inPartition="_klAxRLUhEeyiM_nmpdDFKw" behavior="_OztMoLUXEeyiM_nmpdDFKw"/>
+      <node xmi:type="uml:OpaqueAction" xmi:id="_klAxlrUhEeyiM_nmpdDFKw" name="Оценка тестирования" incoming="_klAxdbUhEeyiM_nmpdDFKw" outgoing="_klAxeLUhEeyiM_nmpdDFKw" inPartition="_klAxQbUhEeyiM_nmpdDFKw">
+        <body>// TODO body of OpaqueAction7</body>
+      </node>
+      <node xmi:type="uml:OpaqueAction" xmi:id="_klAxl7UhEeyiM_nmpdDFKw" name="Сохранение результатов тестирования" incoming="_klAxeLUhEeyiM_nmpdDFKw" outgoing="_klAxfrUhEeyiM_nmpdDFKw" inPartition="_klAxQbUhEeyiM_nmpdDFKw">
+        <body>// TODO body of OpaqueAction8</body>
+      </node>
+      <node xmi:type="uml:CallBehaviorAction" xmi:id="_klAxmLUhEeyiM_nmpdDFKw" incoming="_klAxfrUhEeyiM_nmpdDFKw" outgoing="_klAxgbUhEeyiM_nmpdDFKw" inPartition="_klAxQrUhEeyiM_nmpdDFKw" behavior="_O5unALUVEeyiM_nmpdDFKw"/>
+      <node xmi:type="uml:ActivityFinalNode" xmi:id="_klAxmbUhEeyiM_nmpdDFKw" name="" incoming="_klAxgbUhEeyiM_nmpdDFKw" inPartition="_klAxQrUhEeyiM_nmpdDFKw"/>
+    </ownedBehavior>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_oL4jkLUcEeyiM_nmpdDFKw" target="_c15iwLUcEeyiM_nmpdDFKw" source="_LRbmcLUcEeyiM_nmpdDFKw">
+      <guard xmi:type="uml:LiteralBoolean" xmi:id="_oL4jkbUcEeyiM_nmpdDFKw" name="_To__guard" value="true"/>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_oL4jkrUcEeyiM_nmpdDFKw" name="_To__weight"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_3FXgULUcEeyiM_nmpdDFKw" target="_vYFrkLUcEeyiM_nmpdDFKw" source="_c15iwLUcEeyiM_nmpdDFKw">
+      <guard xmi:type="uml:LiteralBoolean" xmi:id="_3FXgUbUcEeyiM_nmpdDFKw" name="_To_Присвоение статуса пользователям_guard" value="true"/>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_3FXgUrUcEeyiM_nmpdDFKw" name="_To_Присвоение статуса пользователям_weight"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_4p84gLUcEeyiM_nmpdDFKw" target="_qfbTgLUcEeyiM_nmpdDFKw" source="_vYFrkLUcEeyiM_nmpdDFKw">
+      <guard xmi:type="uml:LiteralBoolean" xmi:id="_4p84gbUcEeyiM_nmpdDFKw" name="Присвоение статуса пользователям_To_Сохранение данных пользователей_guard" value="true"/>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_4p84grUcEeyiM_nmpdDFKw" name="Присвоение статуса пользователям_To_Сохранение данных пользователей_weight"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_0ZTGMLUdEeyiM_nmpdDFKw" target="_u00J8LUdEeyiM_nmpdDFKw" source="_LNFcgLUdEeyiM_nmpdDFKw">
+      <guard xmi:type="uml:LiteralBoolean" xmi:id="_0ZTGMbUdEeyiM_nmpdDFKw" name="_To_Сохранение теста_guard" value="true"/>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_0ZTGMrUdEeyiM_nmpdDFKw" name="_To_Сохранение теста_weight"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_2r3lwLUdEeyiM_nmpdDFKw" target="_Tvap8LUdEeyiM_nmpdDFKw" source="_u00J8LUdEeyiM_nmpdDFKw">
+      <guard xmi:type="uml:LiteralBoolean" xmi:id="_2r3lwbUdEeyiM_nmpdDFKw" name="Сохранение теста_To__guard" value="true"/>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_2r3lwrUdEeyiM_nmpdDFKw" name="Сохранение теста_To__weight"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_TsgqcLUeEeyiM_nmpdDFKw" target="_QD2hsLUeEeyiM_nmpdDFKw" source="_qfbTgLUcEeyiM_nmpdDFKw">
+      <guard xmi:type="uml:LiteralBoolean" xmi:id="_TsgqcbUeEeyiM_nmpdDFKw" name="Сохранение данных пользователей_To__guard" value="true"/>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_TshRgLUeEeyiM_nmpdDFKw" name="Сохранение данных пользователей_To__weight"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_VdT5sLUeEeyiM_nmpdDFKw" target="_FsrvALUdEeyiM_nmpdDFKw" source="_QD2hsLUeEeyiM_nmpdDFKw">
+      <guard xmi:type="uml:LiteralBoolean" xmi:id="_VdT5sbUeEeyiM_nmpdDFKw" name="_To__guard" value="true"/>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_VdT5srUeEeyiM_nmpdDFKw" name="_To__weight"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_YvI20LUeEeyiM_nmpdDFKw" target="_GCNdoLUeEeyiM_nmpdDFKw" source="_QD2hsLUeEeyiM_nmpdDFKw">
+      <guard xmi:type="uml:LiteralBoolean" xmi:id="_YvI20bUeEeyiM_nmpdDFKw" name="_To__guard" value="true"/>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_YvI20rUeEeyiM_nmpdDFKw" name="_To__weight"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_pZR44LUeEeyiM_nmpdDFKw" target="_m-4TALUeEeyiM_nmpdDFKw" source="_FsrvALUdEeyiM_nmpdDFKw">
+      <guard xmi:type="uml:LiteralBoolean" xmi:id="_pZR44bUeEeyiM_nmpdDFKw" name="_To__guard" value="true"/>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_pZR44rUeEeyiM_nmpdDFKw" name="_To__weight"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_uTWmMLUeEeyiM_nmpdDFKw" target="_m-4TALUeEeyiM_nmpdDFKw" source="_GCNdoLUeEeyiM_nmpdDFKw">
+      <guard xmi:type="uml:LiteralBoolean" xmi:id="_uTXNQLUeEeyiM_nmpdDFKw" name="_To__guard" value="true"/>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_uTXNQbUeEeyiM_nmpdDFKw" name="_To__weight"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_wkJkILUeEeyiM_nmpdDFKw" target="_i6iJQLUdEeyiM_nmpdDFKw" source="_m-4TALUeEeyiM_nmpdDFKw">
+      <guard xmi:type="uml:LiteralBoolean" xmi:id="_wkJkIbUeEeyiM_nmpdDFKw" name="_To_Поиск пользователя в системе_guard" value="true"/>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_wkJkIrUeEeyiM_nmpdDFKw" name="_To_Поиск пользователя в системе_weight"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_oS8tgLUfEeyiM_nmpdDFKw" target="_lquuELUfEeyiM_nmpdDFKw" source="_i6iJQLUdEeyiM_nmpdDFKw">
+      <guard xmi:type="uml:LiteralBoolean" xmi:id="_oS8tgbUfEeyiM_nmpdDFKw" name="Поиск пользователя в системе_To__guard" value="true"/>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_oS8tgrUfEeyiM_nmpdDFKw" name="Поиск пользователя в системе_To__weight"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_pdhDMLUfEeyiM_nmpdDFKw" target="_LNFcgLUdEeyiM_nmpdDFKw" source="_lquuELUfEeyiM_nmpdDFKw">
+      <guard xmi:type="uml:LiteralBoolean" xmi:id="_pdhDMbUfEeyiM_nmpdDFKw" name="_To__guard" value="true"/>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_pdhDMrUfEeyiM_nmpdDFKw" name="_To__weight"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_0aaOkLUfEeyiM_nmpdDFKw" target="_x5xd0LUfEeyiM_nmpdDFKw" source="_lquuELUfEeyiM_nmpdDFKw">
+      <guard xmi:type="uml:LiteralBoolean" xmi:id="_0aaOkbUfEeyiM_nmpdDFKw" name="_To__guard" value="true"/>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_0aaOkrUfEeyiM_nmpdDFKw" name="_To__weight"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_ERvToLUgEeyiM_nmpdDFKw" target="_At_gELUgEeyiM_nmpdDFKw" source="_Tvap8LUdEeyiM_nmpdDFKw">
+      <guard xmi:type="uml:LiteralBoolean" xmi:id="_ERvTobUgEeyiM_nmpdDFKw" name="_To_Отправка теста на тестирование_guard" value="true"/>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_ERvTorUgEeyiM_nmpdDFKw" name="_To_Отправка теста на тестирование_weight"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_cACU8LUgEeyiM_nmpdDFKw" target="_YZwKwLUgEeyiM_nmpdDFKw" source="_x5xd0LUfEeyiM_nmpdDFKw">
+      <guard xmi:type="uml:LiteralBoolean" xmi:id="_cACU8bUgEeyiM_nmpdDFKw" name="_To_Поиск теста в системе_guard" value="true"/>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_cACU8rUgEeyiM_nmpdDFKw" name="_To_Поиск теста в системе_weight"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_5JfXYLUgEeyiM_nmpdDFKw" target="_1nTqELUgEeyiM_nmpdDFKw" source="_oxt3sLUgEeyiM_nmpdDFKw">
+      <guard xmi:type="uml:LiteralBoolean" xmi:id="_5JfXYbUgEeyiM_nmpdDFKw" name="_To_Оценка тестирования_guard" value="true"/>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_5JfXYrUgEeyiM_nmpdDFKw" name="_To_Оценка тестирования_weight"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_AEv5ULUhEeyiM_nmpdDFKw" target="_50NIULUgEeyiM_nmpdDFKw" source="_1nTqELUgEeyiM_nmpdDFKw">
+      <guard xmi:type="uml:LiteralBoolean" xmi:id="_AEv5UbUhEeyiM_nmpdDFKw" name="Оценка тестирования_To_Сохранение результатов тестирования_guard" value="true"/>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_AEv5UrUhEeyiM_nmpdDFKw" name="Оценка тестирования_To_Сохранение результатов тестирования_weight"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_DVJ6ILUhEeyiM_nmpdDFKw" target="_oxt3sLUgEeyiM_nmpdDFKw" source="_YZwKwLUgEeyiM_nmpdDFKw">
+      <guard xmi:type="uml:LiteralBoolean" xmi:id="_DVJ6IbUhEeyiM_nmpdDFKw" name="Поиск теста в системе_To__guard" value="true"/>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_DVKhMLUhEeyiM_nmpdDFKw" name="Поиск теста в системе_To__weight"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_MvnpcLUhEeyiM_nmpdDFKw" target="_J88tgLUhEeyiM_nmpdDFKw" source="_50NIULUgEeyiM_nmpdDFKw">
+      <guard xmi:type="uml:LiteralBoolean" xmi:id="_MvnpcbUhEeyiM_nmpdDFKw" name="Сохранение результатов тестирования_To__guard" value="true"/>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_MvnpcrUhEeyiM_nmpdDFKw" name="Сохранение результатов тестирования_To__weight"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_SvObcLUhEeyiM_nmpdDFKw" target="_QV8P4LUhEeyiM_nmpdDFKw" source="_J88tgLUhEeyiM_nmpdDFKw">
+      <guard xmi:type="uml:LiteralBoolean" xmi:id="_SvObcbUhEeyiM_nmpdDFKw" name="_To__guard" value="true"/>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_SvObcrUhEeyiM_nmpdDFKw" name="_To__weight"/>
+    </edge>
+    <group xmi:type="uml:ActivityPartition" xmi:id="_UB_SkLUbEeyiM_nmpdDFKw" name="Система" node="_qfbTgLUcEeyiM_nmpdDFKw _vYFrkLUcEeyiM_nmpdDFKw _i6iJQLUdEeyiM_nmpdDFKw _u00J8LUdEeyiM_nmpdDFKw _QD2hsLUeEeyiM_nmpdDFKw _m-4TALUeEeyiM_nmpdDFKw _lquuELUfEeyiM_nmpdDFKw _At_gELUgEeyiM_nmpdDFKw _YZwKwLUgEeyiM_nmpdDFKw _1nTqELUgEeyiM_nmpdDFKw _50NIULUgEeyiM_nmpdDFKw"/>
+    <group xmi:type="uml:ActivityPartition" xmi:id="_V_nc4LUbEeyiM_nmpdDFKw" name="Администратор" node="_LRbmcLUcEeyiM_nmpdDFKw _c15iwLUcEeyiM_nmpdDFKw _J88tgLUhEeyiM_nmpdDFKw _QV8P4LUhEeyiM_nmpdDFKw"/>
+    <group xmi:type="uml:ActivityPartition" xmi:id="_XWODcLUbEeyiM_nmpdDFKw" name="Преподаватель" node="_FsrvALUdEeyiM_nmpdDFKw _LNFcgLUdEeyiM_nmpdDFKw _Tvap8LUdEeyiM_nmpdDFKw"/>
+    <group xmi:type="uml:ActivityPartition" xmi:id="_Yq27ILUbEeyiM_nmpdDFKw" name="Студент" node="_GCNdoLUeEeyiM_nmpdDFKw _x5xd0LUfEeyiM_nmpdDFKw _oxt3sLUgEeyiM_nmpdDFKw"/>
+    <node xmi:type="uml:InitialNode" xmi:id="_LRbmcLUcEeyiM_nmpdDFKw" name="" outgoing="_oL4jkLUcEeyiM_nmpdDFKw" inPartition="_V_nc4LUbEeyiM_nmpdDFKw"/>
+    <node xmi:type="uml:CallBehaviorAction" xmi:id="_c15iwLUcEeyiM_nmpdDFKw" incoming="_oL4jkLUcEeyiM_nmpdDFKw" outgoing="_3FXgULUcEeyiM_nmpdDFKw" inPartition="_V_nc4LUbEeyiM_nmpdDFKw" behavior="_6ZzM4LUZEeyiM_nmpdDFKw"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_qfbTgLUcEeyiM_nmpdDFKw" name="Сохранение данных пользователей" incoming="_4p84gLUcEeyiM_nmpdDFKw" outgoing="_TsgqcLUeEeyiM_nmpdDFKw" inPartition="_UB_SkLUbEeyiM_nmpdDFKw">
+      <body>// TODO body of OpaqueAction1</body>
+    </node>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_vYFrkLUcEeyiM_nmpdDFKw" name="Присвоение статуса пользователям" incoming="_3FXgULUcEeyiM_nmpdDFKw" outgoing="_4p84gLUcEeyiM_nmpdDFKw" inPartition="_UB_SkLUbEeyiM_nmpdDFKw">
+      <body>// TODO body of OpaqueAction2</body>
+    </node>
+    <node xmi:type="uml:CallBehaviorAction" xmi:id="_FsrvALUdEeyiM_nmpdDFKw" incoming="_VdT5sLUeEeyiM_nmpdDFKw" outgoing="_pZR44LUeEeyiM_nmpdDFKw" inPartition="_XWODcLUbEeyiM_nmpdDFKw" behavior="_lJhU4LUTEeyiM_nmpdDFKw"/>
+    <node xmi:type="uml:CallBehaviorAction" xmi:id="_LNFcgLUdEeyiM_nmpdDFKw" incoming="_pdhDMLUfEeyiM_nmpdDFKw" outgoing="_0ZTGMLUdEeyiM_nmpdDFKw" inPartition="_XWODcLUbEeyiM_nmpdDFKw" behavior="_XBsGQLUNEeyiM_nmpdDFKw"/>
+    <node xmi:type="uml:CallBehaviorAction" xmi:id="_Tvap8LUdEeyiM_nmpdDFKw" incoming="_2r3lwLUdEeyiM_nmpdDFKw" outgoing="_ERvToLUgEeyiM_nmpdDFKw" inPartition="_XWODcLUbEeyiM_nmpdDFKw" behavior="_kjgIoLUREeyiM_nmpdDFKw"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_i6iJQLUdEeyiM_nmpdDFKw" name="Поиск пользователя в системе" incoming="_wkJkILUeEeyiM_nmpdDFKw" outgoing="_oS8tgLUfEeyiM_nmpdDFKw" inPartition="_UB_SkLUbEeyiM_nmpdDFKw">
+      <body>// TODO body of OpaqueAction3</body>
+    </node>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_u00J8LUdEeyiM_nmpdDFKw" name="Сохранение теста" incoming="_0ZTGMLUdEeyiM_nmpdDFKw" outgoing="_2r3lwLUdEeyiM_nmpdDFKw" inPartition="_UB_SkLUbEeyiM_nmpdDFKw">
+      <body>// TODO body of OpaqueAction4</body>
+    </node>
+    <node xmi:type="uml:CallBehaviorAction" xmi:id="_GCNdoLUeEeyiM_nmpdDFKw" incoming="_YvI20LUeEeyiM_nmpdDFKw" outgoing="_uTWmMLUeEeyiM_nmpdDFKw" inPartition="_Yq27ILUbEeyiM_nmpdDFKw" behavior="_lJhU4LUTEeyiM_nmpdDFKw"/>
+    <node xmi:type="uml:ForkNode" xmi:id="_QD2hsLUeEeyiM_nmpdDFKw" name="" incoming="_TsgqcLUeEeyiM_nmpdDFKw" outgoing="_VdT5sLUeEeyiM_nmpdDFKw _YvI20LUeEeyiM_nmpdDFKw" inPartition="_UB_SkLUbEeyiM_nmpdDFKw"/>
+    <node xmi:type="uml:JoinNode" xmi:id="_m-4TALUeEeyiM_nmpdDFKw" name="" incoming="_pZR44LUeEeyiM_nmpdDFKw _uTWmMLUeEeyiM_nmpdDFKw" outgoing="_wkJkILUeEeyiM_nmpdDFKw" inPartition="_UB_SkLUbEeyiM_nmpdDFKw">
+      <joinSpec xmi:type="uml:LiteralBoolean" xmi:id="_m-46ELUeEeyiM_nmpdDFKw" name="Join1" value="true"/>
+    </node>
+    <node xmi:type="uml:ForkNode" xmi:id="_lquuELUfEeyiM_nmpdDFKw" name="" incoming="_oS8tgLUfEeyiM_nmpdDFKw" outgoing="_pdhDMLUfEeyiM_nmpdDFKw _0aaOkLUfEeyiM_nmpdDFKw" inPartition="_UB_SkLUbEeyiM_nmpdDFKw"/>
+    <node xmi:type="uml:CallBehaviorAction" xmi:id="_x5xd0LUfEeyiM_nmpdDFKw" incoming="_0aaOkLUfEeyiM_nmpdDFKw" outgoing="_cACU8LUgEeyiM_nmpdDFKw" inPartition="_Yq27ILUbEeyiM_nmpdDFKw" behavior="_uc9WgLUQEeyiM_nmpdDFKw"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_At_gELUgEeyiM_nmpdDFKw" name="Отправка теста на тестирование" incoming="_ERvToLUgEeyiM_nmpdDFKw" inPartition="_UB_SkLUbEeyiM_nmpdDFKw">
+      <body>// TODO body of OpaqueAction5</body>
+    </node>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_YZwKwLUgEeyiM_nmpdDFKw" name="Поиск теста в системе" incoming="_cACU8LUgEeyiM_nmpdDFKw" outgoing="_DVJ6ILUhEeyiM_nmpdDFKw" inPartition="_UB_SkLUbEeyiM_nmpdDFKw">
+      <body>// TODO body of OpaqueAction6</body>
+    </node>
+    <node xmi:type="uml:CallBehaviorAction" xmi:id="_oxt3sLUgEeyiM_nmpdDFKw" incoming="_DVJ6ILUhEeyiM_nmpdDFKw" outgoing="_5JfXYLUgEeyiM_nmpdDFKw" inPartition="_Yq27ILUbEeyiM_nmpdDFKw" behavior="_OztMoLUXEeyiM_nmpdDFKw"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_1nTqELUgEeyiM_nmpdDFKw" name="Оценка тестирования" incoming="_5JfXYLUgEeyiM_nmpdDFKw" outgoing="_AEv5ULUhEeyiM_nmpdDFKw" inPartition="_UB_SkLUbEeyiM_nmpdDFKw">
+      <body>// TODO body of OpaqueAction7</body>
+    </node>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_50NIULUgEeyiM_nmpdDFKw" name="Сохранение результатов тестирования" incoming="_AEv5ULUhEeyiM_nmpdDFKw" outgoing="_MvnpcLUhEeyiM_nmpdDFKw" inPartition="_UB_SkLUbEeyiM_nmpdDFKw">
+      <body>// TODO body of OpaqueAction8</body>
+    </node>
+    <node xmi:type="uml:CallBehaviorAction" xmi:id="_J88tgLUhEeyiM_nmpdDFKw" incoming="_MvnpcLUhEeyiM_nmpdDFKw" outgoing="_SvObcLUhEeyiM_nmpdDFKw" inPartition="_V_nc4LUbEeyiM_nmpdDFKw" behavior="_O5unALUVEeyiM_nmpdDFKw"/>
+    <node xmi:type="uml:ActivityFinalNode" xmi:id="_QV8P4LUhEeyiM_nmpdDFKw" name="" incoming="_SvObcLUhEeyiM_nmpdDFKw" inPartition="_V_nc4LUbEeyiM_nmpdDFKw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_DFiiMNXNEeyA99UA3-3t5Q" name="com.exsample.system_testing">
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_8hqisNYSEeyNxqOfgswTDw" client="_rsFDQNXeEeyA99UA3-3t5Q" supplier="_vsKP4NYSEeyNxqOfgswTDw"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_9zbskNYSEeyNxqOfgswTDw" client="_mweA4NYKEeyNxqOfgswTDw" supplier="_vsKP4NYSEeyNxqOfgswTDw"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="__eoqINYSEeyNxqOfgswTDw" client="_JF4OANYPEeyNxqOfgswTDw" supplier="_vsKP4NYSEeyNxqOfgswTDw"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_AiTtoNYTEeyNxqOfgswTDw" client="_McV64NYMEeyNxqOfgswTDw" supplier="_vsKP4NYSEeyNxqOfgswTDw"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_Bq6UcNYTEeyNxqOfgswTDw" client="_sVJtQNYREeyNxqOfgswTDw" supplier="_vsKP4NYSEeyNxqOfgswTDw"/>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_lDrY0NYTEeyNxqOfgswTDw" name="mySQL"/>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_whGeYNYTEeyNxqOfgswTDw" client="_sVJtQNYREeyNxqOfgswTDw" supplier="_lDrY0NYTEeyNxqOfgswTDw"/>
+    <packagedElement xmi:type="uml:Device" xmi:id="_2v2DINYUEeyNxqOfgswTDw" name="Сервер базы данных">
+      <nestedNode xmi:type="uml:ExecutionEnvironment" xmi:id="_EBOZoNYVEeyNxqOfgswTDw" name="Windows">
+        <nestedNode xmi:type="uml:ExecutionEnvironment" xmi:id="_QA4CgNYVEeyNxqOfgswTDw" name="MySQL">
+          <nestedClassifier xmi:type="uml:Component" xmi:id="_sVJtQNYREeyNxqOfgswTDw" name="ibd">
+            <packagedElement xmi:type="uml:Component" xmi:id="_27xGoNYREeyNxqOfgswTDw" name="tbl_answers"/>
+            <packagedElement xmi:type="uml:Component" xmi:id="_8NMkANYREeyNxqOfgswTDw" name="tbl_assessments"/>
+            <packagedElement xmi:type="uml:Component" xmi:id="_9nL1wNYREeyNxqOfgswTDw" name="tbl_groups"/>
+            <packagedElement xmi:type="uml:Component" xmi:id="__8ijkNYREeyNxqOfgswTDw" name="tbl_questions"/>
+            <packagedElement xmi:type="uml:Component" xmi:id="_Bu-KgNYSEeyNxqOfgswTDw" name="tbl_schedules"/>
+            <packagedElement xmi:type="uml:Component" xmi:id="_DFw-UNYSEeyNxqOfgswTDw" name="tbl_students"/>
+            <packagedElement xmi:type="uml:Component" xmi:id="_FX2VsNYSEeyNxqOfgswTDw" name="tbl_teachers"/>
+            <packagedElement xmi:type="uml:Component" xmi:id="_HHcrENYSEeyNxqOfgswTDw" name="tbl_teachers_has_tbs_disciplines"/>
+            <packagedElement xmi:type="uml:Component" xmi:id="_I2rNANYSEeyNxqOfgswTDw" name="tbl_testes"/>
+            <packagedElement xmi:type="uml:Component" xmi:id="_KzL9ANYSEeyNxqOfgswTDw" name="tbl_users"/>
+            <packagedElement xmi:type="uml:Component" xmi:id="_MpkP0NYSEeyNxqOfgswTDw" name="tbs_disciplines"/>
+          </nestedClassifier>
+        </nestedNode>
+      </nestedNode>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Device" xmi:id="_6-6EkNYUEeyNxqOfgswTDw" name="Персональный компьютер">
+      <nestedNode xmi:type="uml:ExecutionEnvironment" xmi:id="_rnHlwNYVEeyNxqOfgswTDw" name="Windows">
+        <nestedClassifier xmi:type="uml:Component" xmi:id="_mweA4NYKEeyNxqOfgswTDw" name="Model">
+          <interfaceRealization xmi:id="_yCJaYNYTEeyNxqOfgswTDw" client="_mweA4NYKEeyNxqOfgswTDw" supplier="_lDrY0NYTEeyNxqOfgswTDw" contract="_lDrY0NYTEeyNxqOfgswTDw"/>
+          <nestedClassifier xmi:type="uml:Association" xmi:id="_4VDCANX2EeyNxqOfgswTDw" name=" " memberEnd="_4VDCAdX2EeyNxqOfgswTDw _4VDCBNX2EeyNxqOfgswTDw" navigableOwnedEnd="_4VDCAdX2EeyNxqOfgswTDw _4VDCBNX2EeyNxqOfgswTDw">
+            <ownedEnd xmi:id="_4VDCAdX2EeyNxqOfgswTDw" name="" type="_rsFDQNXeEeyA99UA3-3t5Q" association="_4VDCANX2EeyNxqOfgswTDw">
+              <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_4VDCAtX2EeyNxqOfgswTDw" value="1"/>
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_4VDCA9X2EeyNxqOfgswTDw" value="1"/>
+            </ownedEnd>
+            <ownedEnd xmi:id="_4VDCBNX2EeyNxqOfgswTDw" name="" type="_JvQywNXOEeyA99UA3-3t5Q" association="_4VDCANX2EeyNxqOfgswTDw">
+              <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_4VDCBdX2EeyNxqOfgswTDw" value="1"/>
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_4VDCBtX2EeyNxqOfgswTDw" value="1"/>
+            </ownedEnd>
+          </nestedClassifier>
+          <packagedElement xmi:type="uml:Package" xmi:id="_rj1ycNXMEeyA99UA3-3t5Q" name="Essenses">
+            <packagedElement xmi:type="uml:Class" xmi:id="_tDxesNXNEeyA99UA3-3t5Q" name="Answer" visibility="public">
+              <ownedAttribute xmi:id="_pYOHENXaEeyA99UA3-3t5Q" name="nameAnswer" visibility="private">
+                <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_pYOHEdXaEeyA99UA3-3t5Q"/>
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_pYOHEtXaEeyA99UA3-3t5Q" value="1"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_rt0FcNXaEeyA99UA3-3t5Q" name="isTrueAnswer" visibility="private" type="_vj1UwNXaEeyA99UA3-3t5Q">
+                <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_rt0FcdXaEeyA99UA3-3t5Q"/>
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_rt0FctXaEeyA99UA3-3t5Q" value="1"/>
+              </ownedAttribute>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Class" xmi:id="_vNLbMNXNEeyA99UA3-3t5Q" name="Question" visibility="public">
+              <ownedAttribute xmi:id="_3Y3-YNXaEeyA99UA3-3t5Q" name="nameQuestion" visibility="private">
+                <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_3Y3-YdXaEeyA99UA3-3t5Q"/>
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_3Y3-YtXaEeyA99UA3-3t5Q" value="1"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_9dqyYNXaEeyA99UA3-3t5Q" name="answerList" visibility="private" type="_idq6UNXbEeyA99UA3-3t5Q">
+                <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_9dqyYdXaEeyA99UA3-3t5Q"/>
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_9dqyYtXaEeyA99UA3-3t5Q" value="1"/>
+              </ownedAttribute>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Class" xmi:id="_xDeOcNXNEeyA99UA3-3t5Q" name="ResultTest" visibility="public">
+              <ownedAttribute xmi:id="_wzB2UNXbEeyA99UA3-3t5Q" name="numberGroup" visibility="private">
+                <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_wzB2UdXbEeyA99UA3-3t5Q"/>
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_wzB2UtXbEeyA99UA3-3t5Q" value="1"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_y00u8NXbEeyA99UA3-3t5Q" name="nameTest" visibility="private">
+                <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_y01WANXbEeyA99UA3-3t5Q"/>
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_y01WAdXbEeyA99UA3-3t5Q" value="1"/>
+              </ownedAttribute>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Class" xmi:id="_zbX58NXNEeyA99UA3-3t5Q" name="Student" visibility="public">
+              <generalization xmi:id="_ErS54NXfEeyA99UA3-3t5Q" general="_5BiRMNXNEeyA99UA3-3t5Q"/>
+              <ownedAttribute xmi:id="_Dq4tINXcEeyA99UA3-3t5Q" name="fio" visibility="private">
+                <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Dq5UMNXcEeyA99UA3-3t5Q"/>
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Dq5UMdXcEeyA99UA3-3t5Q" value="1"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_FYal8NXcEeyA99UA3-3t5Q" name="group" visibility="private">
+                <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_FYal8dXcEeyA99UA3-3t5Q"/>
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_FYal8tXcEeyA99UA3-3t5Q" value="1"/>
+              </ownedAttribute>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Class" xmi:id="_0-3F8NXNEeyA99UA3-3t5Q" name="Teacher" visibility="public">
+              <generalization xmi:id="_DZkMQNXfEeyA99UA3-3t5Q" general="_5BiRMNXNEeyA99UA3-3t5Q"/>
+              <ownedAttribute xmi:id="_02ivENXbEeyA99UA3-3t5Q" name="fio" visibility="private">
+                <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_02jWINXbEeyA99UA3-3t5Q"/>
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_02jWIdXbEeyA99UA3-3t5Q" value="1"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_3yMA0NXbEeyA99UA3-3t5Q" name="disciplinesList" visibility="private" type="_5t4RcNXbEeyA99UA3-3t5Q">
+                <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_3yMn4NXbEeyA99UA3-3t5Q"/>
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_3yMn4dXbEeyA99UA3-3t5Q" value="1"/>
+              </ownedAttribute>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Class" xmi:id="_2unzYNXNEeyA99UA3-3t5Q" name="Test" visibility="public">
+              <ownedAttribute xmi:id="_HMytoNXcEeyA99UA3-3t5Q" name="nameTest" visibility="private">
+                <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_HMytodXcEeyA99UA3-3t5Q"/>
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_HMytotXcEeyA99UA3-3t5Q" value="1"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_I77wANXcEeyA99UA3-3t5Q" name="discipline" visibility="private">
+                <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_I78XENXcEeyA99UA3-3t5Q"/>
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_I78XEdXcEeyA99UA3-3t5Q" value="1"/>
+              </ownedAttribute>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Class" xmi:id="_5BiRMNXNEeyA99UA3-3t5Q" name="User" visibility="public">
+              <ownedAttribute xmi:id="_8vbW4NXbEeyA99UA3-3t5Q" name="userLogin" visibility="private">
+                <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_8vb98NXbEeyA99UA3-3t5Q"/>
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_8vb98dXbEeyA99UA3-3t5Q" value="1"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="__2jf4NXbEeyA99UA3-3t5Q" name="userPassword" visibility="private">
+                <lowerValue xmi:type="uml:LiteralInteger" xmi:id="__2jf4dXbEeyA99UA3-3t5Q"/>
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="__2kG8NXbEeyA99UA3-3t5Q" value="1"/>
+              </ownedAttribute>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_J20sINX2EeyNxqOfgswTDw" name=" " memberEnd="_J21TMNX2EeyNxqOfgswTDw _J21TM9X2EeyNxqOfgswTDw" navigableOwnedEnd="_J21TM9X2EeyNxqOfgswTDw">
+              <ownedEnd xmi:id="_J21TMNX2EeyNxqOfgswTDw" name="" type="_2unzYNXNEeyA99UA3-3t5Q" association="_J20sINX2EeyNxqOfgswTDw">
+                <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_J21TMdX2EeyNxqOfgswTDw" value="1"/>
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_J21TMtX2EeyNxqOfgswTDw" value="1"/>
+              </ownedEnd>
+              <ownedEnd xmi:id="_J21TM9X2EeyNxqOfgswTDw" name="" type="_vNLbMNXNEeyA99UA3-3t5Q" aggregation="composite" association="_J20sINX2EeyNxqOfgswTDw">
+                <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_J21TNNX2EeyNxqOfgswTDw" value="-1"/>
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_J21TNdX2EeyNxqOfgswTDw" value="*"/>
+              </ownedEnd>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_Of5JANX2EeyNxqOfgswTDw" name=" " memberEnd="_Of5JAdX2EeyNxqOfgswTDw _Of5JBNX2EeyNxqOfgswTDw" navigableOwnedEnd="_Of5JBNX2EeyNxqOfgswTDw">
+              <ownedEnd xmi:id="_Of5JAdX2EeyNxqOfgswTDw" name="" type="_vNLbMNXNEeyA99UA3-3t5Q" association="_Of5JANX2EeyNxqOfgswTDw">
+                <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Of5JAtX2EeyNxqOfgswTDw" value="1"/>
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Of5JA9X2EeyNxqOfgswTDw" value="1"/>
+              </ownedEnd>
+              <ownedEnd xmi:id="_Of5JBNX2EeyNxqOfgswTDw" name="" type="_tDxesNXNEeyA99UA3-3t5Q" aggregation="composite" association="_Of5JANX2EeyNxqOfgswTDw">
+                <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Of5JBdX2EeyNxqOfgswTDw" value="-1"/>
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Of5JBtX2EeyNxqOfgswTDw" value="*"/>
+              </ownedEnd>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Dependency" xmi:id="_NETigNX7EeyNxqOfgswTDw" client="_xDeOcNXNEeyA99UA3-3t5Q" supplier="_2unzYNXNEeyA99UA3-3t5Q"/>
+            <packagedElement xmi:type="uml:Dependency" xmi:id="_OG19kNX7EeyNxqOfgswTDw" client="_xDeOcNXNEeyA99UA3-3t5Q" supplier="_zbX58NXNEeyA99UA3-3t5Q"/>
+            <packagedElement xmi:type="uml:Dependency" xmi:id="_RJufwNX7EeyNxqOfgswTDw" client="_2unzYNXNEeyA99UA3-3t5Q" supplier="_0-3F8NXNEeyA99UA3-3t5Q"/>
+            <packagedElement xmi:type="uml:Package" xmi:id="_rS9IgLN3Eeyv9Jcoos8vSA" name="Компоненты">
+              <packagedElement xmi:type="uml:Component" xmi:id="_fHzsMLN1Eeyv9Jcoos8vSA" name="Пользователь" useCase="_fHzsMbN1Eeyv9Jcoos8vSA"/>
+              <packagedElement xmi:type="uml:Component" xmi:id="_Y4VSMLN1Eeyv9Jcoos8vSA" name="Студент" useCase="_nNmK4LHxEeyjNJ1OvHsKwg"/>
+              <packagedElement xmi:type="uml:Component" xmi:id="_P162gLN1Eeyv9Jcoos8vSA" name="Пользователь" useCase="_GKXscLHvEeyjNJ1OvHsKwg"/>
+              <packagedElement xmi:type="uml:Component" xmi:id="_nkDVMLN0Eeyv9Jcoos8vSA" name="Администратор" useCase="_76mFwLHuEeyjNJ1OvHsKwg _Vjs8ALHxEeyjNJ1OvHsKwg _VBLdwLHxEeyjNJ1OvHsKwg _LAzP4LHvEeyjNJ1OvHsKwg _CmPB4LHwEeyjNJ1OvHsKwg _J_xggNW5EeyA99UA3-3t5Q _RQzTkNW4EeyA99UA3-3t5Q _MCfmMNW5EeyA99UA3-3t5Q">
+                <ownedUseCase xmi:id="_J_xggNW5EeyA99UA3-3t5Q" name="Изменить дисциплины" subject="_nkDVMLN0Eeyv9Jcoos8vSA">
+                  <ownedBehavior xmi:type="uml:Activity" xmi:id="_2_v6QNW6EeyA99UA3-3t5Q" name="Изменить дисциплины activity" node="_7ubP4NW6EeyA99UA3-3t5Q _Jt4NUNW7EeyA99UA3-3t5Q _aA7lENW7EeyA99UA3-3t5Q _df2jANW7EeyA99UA3-3t5Q _yClAMNW7EeyA99UA3-3t5Q _1wMhcNW7EeyA99UA3-3t5Q _8knbkNW7EeyA99UA3-3t5Q _Bv3_gNW8EeyA99UA3-3t5Q _HPtFQNW8EeyA99UA3-3t5Q _VRHKgNW8EeyA99UA3-3t5Q">
+                    <edge xmi:type="uml:ControlFlow" xmi:id="_Qcm5sNW8EeyA99UA3-3t5Q" target="_Jt4NUNW7EeyA99UA3-3t5Q" source="_7ubP4NW6EeyA99UA3-3t5Q">
+                      <guard xmi:type="uml:LiteralBoolean" xmi:id="_Qcm5sdW8EeyA99UA3-3t5Q" name="Начало_To__guard" value="true"/>
+                      <weight xmi:type="uml:LiteralInteger" xmi:id="_QcngwNW8EeyA99UA3-3t5Q" name="Начало_To__weight"/>
+                    </edge>
+                    <edge xmi:type="uml:ControlFlow" xmi:id="_Q9bu0NW8EeyA99UA3-3t5Q" target="_df2jANW7EeyA99UA3-3t5Q" source="_Jt4NUNW7EeyA99UA3-3t5Q">
+                      <guard xmi:type="uml:LiteralBoolean" xmi:id="_Q9bu0dW8EeyA99UA3-3t5Q" name="_To_Ввести название_guard" value="true"/>
+                      <weight xmi:type="uml:LiteralInteger" xmi:id="_Q9cV4NW8EeyA99UA3-3t5Q" name="_To_Ввести название_weight"/>
+                    </edge>
+                    <edge xmi:type="uml:ControlFlow" xmi:id="_RX42MNW8EeyA99UA3-3t5Q" target="_aA7lENW7EeyA99UA3-3t5Q" source="_Jt4NUNW7EeyA99UA3-3t5Q">
+                      <guard xmi:type="uml:LiteralBoolean" xmi:id="_RX42MdW8EeyA99UA3-3t5Q" name="_To_Выбрать дисциплину_guard" value="true"/>
+                      <weight xmi:type="uml:LiteralInteger" xmi:id="_RX42MtW8EeyA99UA3-3t5Q" name="_To_Выбрать дисциплину_weight"/>
+                    </edge>
+                    <edge xmi:type="uml:ControlFlow" xmi:id="_RwjN0NW8EeyA99UA3-3t5Q" target="_1wMhcNW7EeyA99UA3-3t5Q" source="_df2jANW7EeyA99UA3-3t5Q">
+                      <guard xmi:type="uml:LiteralBoolean" xmi:id="_RwjN0dW8EeyA99UA3-3t5Q" name="Ввести название_To_Создать дисциплину_guard" value="true"/>
+                      <weight xmi:type="uml:LiteralInteger" xmi:id="_RwjN0tW8EeyA99UA3-3t5Q" name="Ввести название_To_Создать дисциплину_weight"/>
+                    </edge>
+                    <edge xmi:type="uml:ControlFlow" xmi:id="_SOkmkNW8EeyA99UA3-3t5Q" target="_Bv3_gNW8EeyA99UA3-3t5Q" source="_1wMhcNW7EeyA99UA3-3t5Q">
+                      <guard xmi:type="uml:LiteralBoolean" xmi:id="_SOkmkdW8EeyA99UA3-3t5Q" name="Создать дисциплину_To_Дисциплина [Сохранена в БД]_guard" value="true"/>
+                      <weight xmi:type="uml:LiteralInteger" xmi:id="_SOlNoNW8EeyA99UA3-3t5Q" name="Создать дисциплину_To_Дисциплина [Сохранена в БД]_weight"/>
+                    </edge>
+                    <edge xmi:type="uml:ControlFlow" xmi:id="_Sq-1wNW8EeyA99UA3-3t5Q" target="_8knbkNW7EeyA99UA3-3t5Q" source="_Bv3_gNW8EeyA99UA3-3t5Q">
+                      <guard xmi:type="uml:LiteralBoolean" xmi:id="_Sq-1wdW8EeyA99UA3-3t5Q" name="Дисциплина [Сохранена в БД]_To__guard" value="true"/>
+                      <weight xmi:type="uml:LiteralInteger" xmi:id="_Sq-1wtW8EeyA99UA3-3t5Q" name="Дисциплина [Сохранена в БД]_To__weight"/>
+                    </edge>
+                    <edge xmi:type="uml:ControlFlow" xmi:id="_TKT2ENW8EeyA99UA3-3t5Q" target="_yClAMNW7EeyA99UA3-3t5Q" source="_aA7lENW7EeyA99UA3-3t5Q">
+                      <guard xmi:type="uml:LiteralBoolean" xmi:id="_TKT2EdW8EeyA99UA3-3t5Q" name="Выбрать дисциплину_To_Удалить дисциплину_guard" value="true"/>
+                      <weight xmi:type="uml:LiteralInteger" xmi:id="_TKUdINW8EeyA99UA3-3t5Q" name="Выбрать дисциплину_To_Удалить дисциплину_weight"/>
+                    </edge>
+                    <edge xmi:type="uml:ControlFlow" xmi:id="_TlZ2oNW8EeyA99UA3-3t5Q" target="_HPtFQNW8EeyA99UA3-3t5Q" source="_yClAMNW7EeyA99UA3-3t5Q">
+                      <guard xmi:type="uml:LiteralBoolean" xmi:id="_TlZ2odW8EeyA99UA3-3t5Q" name="Удалить дисциплину_To_Дисциплина [Удалена из БД]_guard" value="true"/>
+                      <weight xmi:type="uml:LiteralInteger" xmi:id="_TladsNW8EeyA99UA3-3t5Q" name="Удалить дисциплину_To_Дисциплина [Удалена из БД]_weight"/>
+                    </edge>
+                    <edge xmi:type="uml:ControlFlow" xmi:id="_UEY4sNW8EeyA99UA3-3t5Q" target="_8knbkNW7EeyA99UA3-3t5Q" source="_HPtFQNW8EeyA99UA3-3t5Q">
+                      <guard xmi:type="uml:LiteralBoolean" xmi:id="_UEY4sdW8EeyA99UA3-3t5Q" name="Дисциплина [Удалена из БД]_To__guard" value="true"/>
+                      <weight xmi:type="uml:LiteralInteger" xmi:id="_UEY4stW8EeyA99UA3-3t5Q" name="Дисциплина [Удалена из БД]_To__weight"/>
+                    </edge>
+                    <edge xmi:type="uml:ControlFlow" xmi:id="_W4NEINW8EeyA99UA3-3t5Q" target="_VRHKgNW8EeyA99UA3-3t5Q" source="_8knbkNW7EeyA99UA3-3t5Q">
+                      <guard xmi:type="uml:LiteralBoolean" xmi:id="_W4NrMNW8EeyA99UA3-3t5Q" name="_To_Конец_guard" value="true"/>
+                      <weight xmi:type="uml:LiteralInteger" xmi:id="_W4NrMdW8EeyA99UA3-3t5Q" name="_To_Конец_weight"/>
+                    </edge>
+                    <node xmi:type="uml:InitialNode" xmi:id="_7ubP4NW6EeyA99UA3-3t5Q" name="Начало" outgoing="_Qcm5sNW8EeyA99UA3-3t5Q"/>
+                    <node xmi:type="uml:DecisionNode" xmi:id="_Jt4NUNW7EeyA99UA3-3t5Q" name="" incoming="_Qcm5sNW8EeyA99UA3-3t5Q" outgoing="_Q9bu0NW8EeyA99UA3-3t5Q _RX42MNW8EeyA99UA3-3t5Q"/>
+                    <node xmi:type="uml:OpaqueAction" xmi:id="_aA7lENW7EeyA99UA3-3t5Q" name="Выбрать дисциплину" incoming="_RX42MNW8EeyA99UA3-3t5Q" outgoing="_TKT2ENW8EeyA99UA3-3t5Q">
+                      <body>// TODO body of OpaqueAction1</body>
+                    </node>
+                    <node xmi:type="uml:OpaqueAction" xmi:id="_df2jANW7EeyA99UA3-3t5Q" name="Ввести название" incoming="_Q9bu0NW8EeyA99UA3-3t5Q" outgoing="_RwjN0NW8EeyA99UA3-3t5Q">
+                      <body>// TODO body of OpaqueAction1</body>
+                    </node>
+                    <node xmi:type="uml:OpaqueAction" xmi:id="_yClAMNW7EeyA99UA3-3t5Q" name="Удалить дисциплину" incoming="_TKT2ENW8EeyA99UA3-3t5Q" outgoing="_TlZ2oNW8EeyA99UA3-3t5Q">
+                      <body>// TODO body of OpaqueAction3</body>
+                    </node>
+                    <node xmi:type="uml:OpaqueAction" xmi:id="_1wMhcNW7EeyA99UA3-3t5Q" name="Создать дисциплину" incoming="_RwjN0NW8EeyA99UA3-3t5Q" outgoing="_SOkmkNW8EeyA99UA3-3t5Q">
+                      <body>// TODO body of OpaqueAction4</body>
+                    </node>
+                    <node xmi:type="uml:MergeNode" xmi:id="_8knbkNW7EeyA99UA3-3t5Q" name="" incoming="_Sq-1wNW8EeyA99UA3-3t5Q _UEY4sNW8EeyA99UA3-3t5Q" outgoing="_W4NEINW8EeyA99UA3-3t5Q"/>
+                    <node xmi:type="uml:DataStoreNode" xmi:id="_Bv3_gNW8EeyA99UA3-3t5Q" name="Дисциплина [Сохранена в БД]" incoming="_SOkmkNW8EeyA99UA3-3t5Q" outgoing="_Sq-1wNW8EeyA99UA3-3t5Q"/>
+                    <node xmi:type="uml:DataStoreNode" xmi:id="_HPtFQNW8EeyA99UA3-3t5Q" name="Дисциплина [Удалена из БД]" incoming="_TlZ2oNW8EeyA99UA3-3t5Q" outgoing="_UEY4sNW8EeyA99UA3-3t5Q"/>
+                    <node xmi:type="uml:ActivityFinalNode" xmi:id="_VRHKgNW8EeyA99UA3-3t5Q" name="Конец" incoming="_W4NEINW8EeyA99UA3-3t5Q"/>
+                  </ownedBehavior>
+                </ownedUseCase>
+                <ownedUseCase xmi:id="_RQzTkNW4EeyA99UA3-3t5Q" name="Удалить пользователя" subject="_nkDVMLN0Eeyv9Jcoos8vSA">
+                  <ownedBehavior xmi:type="uml:Activity" xmi:id="_f1p-8NXKEeyA99UA3-3t5Q" name="Удалить пользователя activity" node="_hFDKQNXKEeyA99UA3-3t5Q _i1f0MNXKEeyA99UA3-3t5Q _kAF_ENXKEeyA99UA3-3t5Q _lmU9ENXKEeyA99UA3-3t5Q">
+                    <edge xmi:type="uml:ControlFlow" xmi:id="_vnjKYNXKEeyA99UA3-3t5Q" target="_kAF_ENXKEeyA99UA3-3t5Q" source="_hFDKQNXKEeyA99UA3-3t5Q">
+                      <guard xmi:type="uml:LiteralBoolean" xmi:id="_vnjKYdXKEeyA99UA3-3t5Q" name="Начало_To_Выбрать пользователя_guard" value="true"/>
+                      <weight xmi:type="uml:LiteralInteger" xmi:id="_vnjxcNXKEeyA99UA3-3t5Q" name="Начало_To_Выбрать пользователя_weight"/>
+                    </edge>
+                    <edge xmi:type="uml:ControlFlow" xmi:id="_wKb1ANXKEeyA99UA3-3t5Q" target="_lmU9ENXKEeyA99UA3-3t5Q" source="_kAF_ENXKEeyA99UA3-3t5Q">
+                      <guard xmi:type="uml:LiteralBoolean" xmi:id="_wKb1AdXKEeyA99UA3-3t5Q" name="Выбрать пользователя_To_Удалить пользователя_guard" value="true"/>
+                      <weight xmi:type="uml:LiteralInteger" xmi:id="_wKb1AtXKEeyA99UA3-3t5Q" name="Выбрать пользователя_To_Удалить пользователя_weight"/>
+                    </edge>
+                    <edge xmi:type="uml:ControlFlow" xmi:id="_ws2lkNXKEeyA99UA3-3t5Q" target="_i1f0MNXKEeyA99UA3-3t5Q" source="_lmU9ENXKEeyA99UA3-3t5Q">
+                      <guard xmi:type="uml:LiteralBoolean" xmi:id="_ws3MoNXKEeyA99UA3-3t5Q" name="Удалить пользователя_To_Конец_guard" value="true"/>
+                      <weight xmi:type="uml:LiteralInteger" xmi:id="_ws3ModXKEeyA99UA3-3t5Q" name="Удалить пользователя_To_Конец_weight"/>
+                    </edge>
+                    <node xmi:type="uml:InitialNode" xmi:id="_hFDKQNXKEeyA99UA3-3t5Q" name="Начало" outgoing="_vnjKYNXKEeyA99UA3-3t5Q"/>
+                    <node xmi:type="uml:ActivityFinalNode" xmi:id="_i1f0MNXKEeyA99UA3-3t5Q" name="Конец" incoming="_ws2lkNXKEeyA99UA3-3t5Q"/>
+                    <node xmi:type="uml:OpaqueAction" xmi:id="_kAF_ENXKEeyA99UA3-3t5Q" name="Выбрать пользователя" incoming="_vnjKYNXKEeyA99UA3-3t5Q" outgoing="_wKb1ANXKEeyA99UA3-3t5Q">
+                      <body>// TODO body of OpaqueAction1</body>
+                    </node>
+                    <node xmi:type="uml:OpaqueAction" xmi:id="_lmU9ENXKEeyA99UA3-3t5Q" name="Удалить пользователя" incoming="_wKb1ANXKEeyA99UA3-3t5Q" outgoing="_ws2lkNXKEeyA99UA3-3t5Q">
+                      <body>// TODO body of OpaqueAction2</body>
+                    </node>
+                  </ownedBehavior>
+                </ownedUseCase>
+                <ownedUseCase xmi:id="_MCfmMNW5EeyA99UA3-3t5Q" name="Изменить группы" subject="_nkDVMLN0Eeyv9Jcoos8vSA">
+                  <ownedBehavior xmi:type="uml:Activity" xmi:id="_82nVENW8EeyA99UA3-3t5Q" name="Изменить группы activity" node="_B8gQ0NW9EeyA99UA3-3t5Q _B8gQ0dW9EeyA99UA3-3t5Q _B8gQ0tW9EeyA99UA3-3t5Q _B8gQ09W9EeyA99UA3-3t5Q _B8gQ1NW9EeyA99UA3-3t5Q _B8gQ1dW9EeyA99UA3-3t5Q _B8gQ1tW9EeyA99UA3-3t5Q _B8gQ19W9EeyA99UA3-3t5Q _B8gQ2NW9EeyA99UA3-3t5Q _B8gQ2dW9EeyA99UA3-3t5Q">
+                    <edge xmi:type="uml:ControlFlow" xmi:id="_ZZ2sENW9EeyA99UA3-3t5Q" target="_B8gQ0tW9EeyA99UA3-3t5Q" source="_B8gQ0dW9EeyA99UA3-3t5Q">
+                      <guard xmi:type="uml:LiteralBoolean" xmi:id="_ZZ2sEdW9EeyA99UA3-3t5Q" name="Начало_To__guard" value="true"/>
+                      <weight xmi:type="uml:LiteralInteger" xmi:id="_ZZ2sEtW9EeyA99UA3-3t5Q" name="Начало_To__weight"/>
+                    </edge>
+                    <edge xmi:type="uml:ControlFlow" xmi:id="_aDmMoNW9EeyA99UA3-3t5Q" target="_B8gQ2NW9EeyA99UA3-3t5Q" source="_B8gQ0tW9EeyA99UA3-3t5Q">
+                      <guard xmi:type="uml:LiteralBoolean" xmi:id="_aDmModW9EeyA99UA3-3t5Q" name="_To_Выбрать группу_guard" value="true"/>
+                      <weight xmi:type="uml:LiteralInteger" xmi:id="_aDmzsNW9EeyA99UA3-3t5Q" name="_To_Выбрать группу_weight"/>
+                    </edge>
+                    <edge xmi:type="uml:ControlFlow" xmi:id="_zWiaENXJEeyA99UA3-3t5Q" target="_B8gQ1tW9EeyA99UA3-3t5Q" source="_B8gQ0tW9EeyA99UA3-3t5Q">
+                      <guard xmi:type="uml:LiteralBoolean" xmi:id="_zWiaEdXJEeyA99UA3-3t5Q" name="_To_Ввести название_guard" value="true"/>
+                      <weight xmi:type="uml:LiteralInteger" xmi:id="_zWiaEtXJEeyA99UA3-3t5Q" name="_To_Ввести название_weight"/>
+                    </edge>
+                    <edge xmi:type="uml:ControlFlow" xmi:id="_0J04MNXJEeyA99UA3-3t5Q" target="_B8gQ0NW9EeyA99UA3-3t5Q" source="_B8gQ2NW9EeyA99UA3-3t5Q">
+                      <guard xmi:type="uml:LiteralBoolean" xmi:id="_0J04MdXJEeyA99UA3-3t5Q" name="Выбрать группу_To_Удалить группу_guard" value="true"/>
+                      <weight xmi:type="uml:LiteralInteger" xmi:id="_0J1fQNXJEeyA99UA3-3t5Q" name="Выбрать группу_To_Удалить группу_weight"/>
+                    </edge>
+                    <edge xmi:type="uml:ControlFlow" xmi:id="_03NioNXJEeyA99UA3-3t5Q" target="_B8gQ1dW9EeyA99UA3-3t5Q" source="_B8gQ0NW9EeyA99UA3-3t5Q">
+                      <guard xmi:type="uml:LiteralBoolean" xmi:id="_03NiodXJEeyA99UA3-3t5Q" name="Удалить группу_To_Дисциплина [Удалена из БД]_guard" value="true"/>
+                      <weight xmi:type="uml:LiteralInteger" xmi:id="_03NiotXJEeyA99UA3-3t5Q" name="Удалить группу_To_Дисциплина [Удалена из БД]_weight"/>
+                    </edge>
+                    <edge xmi:type="uml:ControlFlow" xmi:id="_1ncFsNXJEeyA99UA3-3t5Q" target="_B8gQ2dW9EeyA99UA3-3t5Q" source="_B8gQ1tW9EeyA99UA3-3t5Q">
+                      <guard xmi:type="uml:LiteralBoolean" xmi:id="_1ncFsdXJEeyA99UA3-3t5Q" name="Ввести название_To_Создать группу_guard" value="true"/>
+                      <weight xmi:type="uml:LiteralInteger" xmi:id="_1ncFstXJEeyA99UA3-3t5Q" name="Ввести название_To_Создать группу_weight"/>
+                    </edge>
+                    <edge xmi:type="uml:ControlFlow" xmi:id="_2RCcUNXJEeyA99UA3-3t5Q" target="_B8gQ19W9EeyA99UA3-3t5Q" source="_B8gQ2dW9EeyA99UA3-3t5Q">
+                      <guard xmi:type="uml:LiteralBoolean" xmi:id="_2RCcUdXJEeyA99UA3-3t5Q" name="Создать группу_To_Дисциплина [Сохранена в БД]_guard" value="true"/>
+                      <weight xmi:type="uml:LiteralInteger" xmi:id="_2RCcUtXJEeyA99UA3-3t5Q" name="Создать группу_To_Дисциплина [Сохранена в БД]_weight"/>
+                    </edge>
+                    <edge xmi:type="uml:ControlFlow" xmi:id="_4jBGANXJEeyA99UA3-3t5Q" target="_B8gQ09W9EeyA99UA3-3t5Q" source="_B8gQ1dW9EeyA99UA3-3t5Q">
+                      <guard xmi:type="uml:LiteralBoolean" xmi:id="_4jBtENXJEeyA99UA3-3t5Q" name="Дисциплина [Удалена из БД]_To__guard" value="true"/>
+                      <weight xmi:type="uml:LiteralInteger" xmi:id="_4jBtEdXJEeyA99UA3-3t5Q" name="Дисциплина [Удалена из БД]_To__weight"/>
+                    </edge>
+                    <edge xmi:type="uml:ControlFlow" xmi:id="_6VP4oNXJEeyA99UA3-3t5Q" target="_B8gQ1NW9EeyA99UA3-3t5Q" source="_B8gQ09W9EeyA99UA3-3t5Q">
+                      <guard xmi:type="uml:LiteralBoolean" xmi:id="_6VP4odXJEeyA99UA3-3t5Q" name="_To_Конец_guard" value="true"/>
+                      <weight xmi:type="uml:LiteralInteger" xmi:id="_6VP4otXJEeyA99UA3-3t5Q" name="_To_Конец_weight"/>
+                    </edge>
+                    <edge xmi:type="uml:ControlFlow" xmi:id="_9QkaQNXJEeyA99UA3-3t5Q" target="_B8gQ09W9EeyA99UA3-3t5Q" source="_B8gQ19W9EeyA99UA3-3t5Q">
+                      <guard xmi:type="uml:LiteralBoolean" xmi:id="_9QkaQdXJEeyA99UA3-3t5Q" name="Дисциплина [Сохранена в БД]_To__guard" value="true"/>
+                      <weight xmi:type="uml:LiteralInteger" xmi:id="_9QkaQtXJEeyA99UA3-3t5Q" name="Дисциплина [Сохранена в БД]_To__weight"/>
+                    </edge>
+                    <node xmi:type="uml:OpaqueAction" xmi:id="_B8gQ0NW9EeyA99UA3-3t5Q" name="Удалить группу" incoming="_0J04MNXJEeyA99UA3-3t5Q" outgoing="_03NioNXJEeyA99UA3-3t5Q">
+                      <body>// TODO body of OpaqueAction3</body>
+                    </node>
+                    <node xmi:type="uml:InitialNode" xmi:id="_B8gQ0dW9EeyA99UA3-3t5Q" name="Начало" outgoing="_ZZ2sENW9EeyA99UA3-3t5Q"/>
+                    <node xmi:type="uml:DecisionNode" xmi:id="_B8gQ0tW9EeyA99UA3-3t5Q" name="" incoming="_ZZ2sENW9EeyA99UA3-3t5Q" outgoing="_aDmMoNW9EeyA99UA3-3t5Q _zWiaENXJEeyA99UA3-3t5Q"/>
+                    <node xmi:type="uml:MergeNode" xmi:id="_B8gQ09W9EeyA99UA3-3t5Q" name="" incoming="_4jBGANXJEeyA99UA3-3t5Q _9QkaQNXJEeyA99UA3-3t5Q" outgoing="_6VP4oNXJEeyA99UA3-3t5Q"/>
+                    <node xmi:type="uml:ActivityFinalNode" xmi:id="_B8gQ1NW9EeyA99UA3-3t5Q" name="Конец" incoming="_6VP4oNXJEeyA99UA3-3t5Q"/>
+                    <node xmi:type="uml:DataStoreNode" xmi:id="_B8gQ1dW9EeyA99UA3-3t5Q" name="Дисциплина [Удалена из БД]" incoming="_03NioNXJEeyA99UA3-3t5Q" outgoing="_4jBGANXJEeyA99UA3-3t5Q"/>
+                    <node xmi:type="uml:OpaqueAction" xmi:id="_B8gQ1tW9EeyA99UA3-3t5Q" name="Ввести название" incoming="_zWiaENXJEeyA99UA3-3t5Q" outgoing="_1ncFsNXJEeyA99UA3-3t5Q">
+                      <body>// TODO body of OpaqueAction1</body>
+                    </node>
+                    <node xmi:type="uml:DataStoreNode" xmi:id="_B8gQ19W9EeyA99UA3-3t5Q" name="Дисциплина [Сохранена в БД]" incoming="_2RCcUNXJEeyA99UA3-3t5Q" outgoing="_9QkaQNXJEeyA99UA3-3t5Q"/>
+                    <node xmi:type="uml:OpaqueAction" xmi:id="_B8gQ2NW9EeyA99UA3-3t5Q" name="Выбрать группу" incoming="_aDmMoNW9EeyA99UA3-3t5Q" outgoing="_0J04MNXJEeyA99UA3-3t5Q">
+                      <body>// TODO body of OpaqueAction1</body>
+                    </node>
+                    <node xmi:type="uml:OpaqueAction" xmi:id="_B8gQ2dW9EeyA99UA3-3t5Q" name="Создать группу" incoming="_1ncFsNXJEeyA99UA3-3t5Q" outgoing="_2RCcUNXJEeyA99UA3-3t5Q">
+                      <body>// TODO body of OpaqueAction4</body>
+                    </node>
+                  </ownedBehavior>
+                </ownedUseCase>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Class" xmi:id="_i2sUsLH0EeyjNJ1OvHsKwg" name="Студент" visibility="public">
+                <ownedAttribute xmi:id="_hsmGoLRFEeyJ3qcx02ngwg" name="группа" visibility="public">
+                  <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_hsmGobRFEeyJ3qcx02ngwg"/>
+                  <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_hsmGorRFEeyJ3qcx02ngwg" value="1"/>
+                </ownedAttribute>
+                <ownedOperation xmi:id="_CqdugLRJEeyJ3qcx02ngwg" name="прохождение тестирования">
+                  <ownedParameter xmi:id="_m5Mi0LRPEeyJ3qcx02ngwg" name="тест" type="_mhTO8LRJEeyJ3qcx02ngwg"/>
+                </ownedOperation>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Component" xmi:id="_9_XPMLN1Eeyv9Jcoos8vSA" name="Преподаватель" useCase="_0MfqQLHxEeyjNJ1OvHsKwg _pa6-ELHxEeyjNJ1OvHsKwg _yU2zMLHxEeyjNJ1OvHsKwg _-MxXENW5EeyA99UA3-3t5Q">
+                <packagedElement xmi:type="uml:UseCase" xmi:id="_-MxXENW5EeyA99UA3-3t5Q" name="Изменить тест" subject="_9_XPMLN1Eeyv9Jcoos8vSA"/>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Class" xmi:id="_X1f3ALOHEeyv9Jcoos8vSA" name="Преподаватель" visibility="public">
+                <ownedAttribute xmi:id="_J3XPgLRIEeyJ3qcx02ngwg" name="дисциплина" visibility="public" type="_82s1kLRHEeyJ3qcx02ngwg">
+                  <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_J3X2kLRIEeyJ3qcx02ngwg"/>
+                  <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_J3X2kbRIEeyJ3qcx02ngwg" value="1"/>
+                </ownedAttribute>
+                <ownedOperation xmi:id="_E0lcsLRJEeyJ3qcx02ngwg" name="создание теста"/>
+                <ownedOperation xmi:id="_2wNJsLRNEeyJ3qcx02ngwg" name="назначение даты теста"/>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Class" xmi:id="_aWFkcLOHEeyv9Jcoos8vSA" name="Администратор" visibility="public">
+                <ownedOperation xmi:id="_6g7bkLRIEeyJ3qcx02ngwg" name="регистрация пользователя">
+                  <ownedParameter xmi:id="_thaM8LRPEeyJ3qcx02ngwg"/>
+                </ownedOperation>
+                <ownedOperation xmi:id="_9bYagLRIEeyJ3qcx02ngwg" name="просмотр результатов тестирования">
+                  <ownedParameter xmi:id="_wD-QULRPEeyJ3qcx02ngwg" name="тест" type="_mhTO8LRJEeyJ3qcx02ngwg"/>
+                </ownedOperation>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Enumeration" xmi:id="_Nd8X4LOIEeyv9Jcoos8vSA" name="Оценка" visibility="public">
+                <ownedLiteral xmi:id="_rUVY0LOIEeyv9Jcoos8vSA" name="Неудовлетворительно">
+                  <specification xmi:type="uml:LiteralInteger" xmi:id="_rUV_4LOIEeyv9Jcoos8vSA"/>
+                </ownedLiteral>
+                <ownedLiteral xmi:id="_vuwVsLOIEeyv9Jcoos8vSA" name="Удовлетворительно">
+                  <specification xmi:type="uml:LiteralInteger" xmi:id="_vuwVsbOIEeyv9Jcoos8vSA" value="1"/>
+                </ownedLiteral>
+                <ownedLiteral xmi:id="_xSkR0LOIEeyv9Jcoos8vSA" name="Хорошо">
+                  <specification xmi:type="uml:LiteralInteger" xmi:id="_xSkR0bOIEeyv9Jcoos8vSA" value="2"/>
+                </ownedLiteral>
+                <ownedLiteral xmi:id="_y8y_ALOIEeyv9Jcoos8vSA" name="Отлично">
+                  <specification xmi:type="uml:LiteralInteger" xmi:id="_y8y_AbOIEeyv9Jcoos8vSA" value="3"/>
+                </ownedLiteral>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Enumeration" xmi:id="_82s1kLRHEeyJ3qcx02ngwg" name="Дисциплина" visibility="public">
+                <ownedLiteral xmi:id="__wQcoLRHEeyJ3qcx02ngwg" name="Технология программирования">
+                  <specification xmi:type="uml:LiteralInteger" xmi:id="__wQcobRHEeyJ3qcx02ngwg"/>
+                </ownedLiteral>
+                <ownedLiteral xmi:id="_CIYKkLRIEeyJ3qcx02ngwg" name="Цифровые технолинии">
+                  <specification xmi:type="uml:LiteralInteger" xmi:id="_CIYKkbRIEeyJ3qcx02ngwg" value="1"/>
+                </ownedLiteral>
+                <ownedLiteral xmi:id="_ESMWwLRIEeyJ3qcx02ngwg" name="Основы вычислительной техники">
+                  <specification xmi:type="uml:LiteralInteger" xmi:id="_ESM90LRIEeyJ3qcx02ngwg" value="2"/>
+                </ownedLiteral>
+                <ownedLiteral xmi:id="_GF9acLRIEeyJ3qcx02ngwg" name="Базы данных">
+                  <specification xmi:type="uml:LiteralInteger" xmi:id="_GF9acbRIEeyJ3qcx02ngwg" value="3"/>
+                </ownedLiteral>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Class" xmi:id="_w-SnsLRIEeyJ3qcx02ngwg" name="Группа студентов" visibility="public">
+                <ownedOperation xmi:id="_I494ILRJEeyJ3qcx02ngwg" name="добавить студента">
+                  <ownedParameter xmi:id="_eKfGQLRPEeyJ3qcx02ngwg" type="_i2sUsLH0EeyjNJ1OvHsKwg"/>
+                </ownedOperation>
+                <ownedOperation xmi:id="_KVybcLRJEeyJ3qcx02ngwg" name="удалить студента">
+                  <ownedParameter xmi:id="_gxryALRPEeyJ3qcx02ngwg" type="_i2sUsLH0EeyjNJ1OvHsKwg"/>
+                </ownedOperation>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Class" xmi:id="_mhTO8LRJEeyJ3qcx02ngwg" name="Тест" visibility="public" isAbstract="true">
+                <ownedAttribute xmi:id="_usRsULRJEeyJ3qcx02ngwg" name="дисциплина" visibility="public" type="_82s1kLRHEeyJ3qcx02ngwg">
+                  <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_usRsUbRJEeyJ3qcx02ngwg"/>
+                  <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_usRsUrRJEeyJ3qcx02ngwg" value="1"/>
+                </ownedAttribute>
+                <ownedOperation xmi:id="_YF9C4LRNEeyJ3qcx02ngwg" name="добавить вопрос">
+                  <ownedParameter xmi:id="_UxXawLRPEeyJ3qcx02ngwg" name="вопрос" type="_RrUhwLRNEeyJ3qcx02ngwg"/>
+                </ownedOperation>
+                <ownedOperation xmi:id="_yZdL4LRNEeyJ3qcx02ngwg" name="добавить ответ">
+                  <ownedParameter xmi:id="_aWGOoLRPEeyJ3qcx02ngwg" name="ответ" type="_fxPTkLRNEeyJ3qcx02ngwg"/>
+                </ownedOperation>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Class" xmi:id="_RrUhwLRNEeyJ3qcx02ngwg" name="Вопрос" visibility="public">
+                <ownedAttribute xmi:id="_U8Eg0LRNEeyJ3qcx02ngwg" name="вопрос" visibility="public">
+                  <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_U8Eg0bRNEeyJ3qcx02ngwg"/>
+                  <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_U8FH4LRNEeyJ3qcx02ngwg" value="1"/>
+                </ownedAttribute>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Class" xmi:id="_fxPTkLRNEeyJ3qcx02ngwg" name="Ответ" visibility="public">
+                <ownedAttribute xmi:id="_hIxuQLRNEeyJ3qcx02ngwg" name="ответ" visibility="public">
+                  <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_hIxuQbRNEeyJ3qcx02ngwg"/>
+                  <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_hIxuQrRNEeyJ3qcx02ngwg" value="1"/>
+                </ownedAttribute>
+                <ownedAttribute xmi:id="_qVdgQLRNEeyJ3qcx02ngwg" name="идентификатор" visibility="public">
+                  <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_qVdgQbRNEeyJ3qcx02ngwg"/>
+                  <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_qVdgQrRNEeyJ3qcx02ngwg" value="1"/>
+                </ownedAttribute>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Class" xmi:id="__iLDsLRPEeyJ3qcx02ngwg" name="Меню пользователя" visibility="public">
+                <ownedOperation xmi:id="_NQJPkLRQEeyJ3qcx02ngwg" name="вывод меню"/>
+                <ownedOperation xmi:id="_O9QRoLRQEeyJ3qcx02ngwg" name="выбор пользователя"/>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Association" xmi:id="_W0pZwLRSEeyJ3qcx02ngwg" name="студентsToГруппа студентовs" memberEnd="_W0pZwbRSEeyJ3qcx02ngwg _W0pZxLRSEeyJ3qcx02ngwg" navigableOwnedEnd="_W0pZxLRSEeyJ3qcx02ngwg">
+                <ownedEnd xmi:id="_W0pZwbRSEeyJ3qcx02ngwg" name="студентs" type="_i2sUsLH0EeyjNJ1OvHsKwg" association="_W0pZwLRSEeyJ3qcx02ngwg">
+                  <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_W0pZwrRSEeyJ3qcx02ngwg"/>
+                  <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_W0pZw7RSEeyJ3qcx02ngwg" value="*"/>
+                </ownedEnd>
+                <ownedEnd xmi:id="_W0pZxLRSEeyJ3qcx02ngwg" name="группа студентовs" type="_w-SnsLRIEeyJ3qcx02ngwg" aggregation="shared" association="_W0pZwLRSEeyJ3qcx02ngwg">
+                  <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_W0qA0LRSEeyJ3qcx02ngwg"/>
+                  <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_W0qA0bRSEeyJ3qcx02ngwg" value="1"/>
+                </ownedEnd>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Association" xmi:id="_8IAikLRSEeyJ3qcx02ngwg" name="добавляет ответ(ы)" memberEnd="_8IAikbRSEeyJ3qcx02ngwg _8IAilLRSEeyJ3qcx02ngwg" navigableOwnedEnd="_8IAilLRSEeyJ3qcx02ngwg">
+                <ownedEnd xmi:id="_8IAikbRSEeyJ3qcx02ngwg" name="ответs" type="_fxPTkLRNEeyJ3qcx02ngwg" association="_8IAikLRSEeyJ3qcx02ngwg">
+                  <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_8IAikrRSEeyJ3qcx02ngwg"/>
+                  <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_8IAik7RSEeyJ3qcx02ngwg" value="*"/>
+                </ownedEnd>
+                <ownedEnd xmi:id="_8IAilLRSEeyJ3qcx02ngwg" name="вопросs" type="_RrUhwLRNEeyJ3qcx02ngwg" aggregation="shared" association="_8IAikLRSEeyJ3qcx02ngwg">
+                  <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_8IBJoLRSEeyJ3qcx02ngwg" value="1"/>
+                  <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_8IBJobRSEeyJ3qcx02ngwg" value="1"/>
+                </ownedEnd>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Association" xmi:id="_HYR88LRTEeyJ3qcx02ngwg" name="вопросsToТестs" memberEnd="_HYR88bRTEeyJ3qcx02ngwg _HYR89LRTEeyJ3qcx02ngwg" navigableOwnedEnd="_HYR89LRTEeyJ3qcx02ngwg">
+                <ownedEnd xmi:id="_HYR88bRTEeyJ3qcx02ngwg" name="вопросs" type="_RrUhwLRNEeyJ3qcx02ngwg" association="_HYR88LRTEeyJ3qcx02ngwg">
+                  <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_HYR88rRTEeyJ3qcx02ngwg"/>
+                  <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_HYR887RTEeyJ3qcx02ngwg" value="*"/>
+                </ownedEnd>
+                <ownedEnd xmi:id="_HYR89LRTEeyJ3qcx02ngwg" name="тестs" type="_mhTO8LRJEeyJ3qcx02ngwg" aggregation="shared" association="_HYR88LRTEeyJ3qcx02ngwg">
+                  <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_HYR89bRTEeyJ3qcx02ngwg" value="1"/>
+                  <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_HYR89rRTEeyJ3qcx02ngwg" value="1"/>
+                </ownedEnd>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Association" xmi:id="_SqZxcLRTEeyJ3qcx02ngwg" name="выбирает дисциплину" memberEnd="_SqZxcbRTEeyJ3qcx02ngwg _SqZxdLRTEeyJ3qcx02ngwg" navigableOwnedEnd="_SqZxcbRTEeyJ3qcx02ngwg _SqZxdLRTEeyJ3qcx02ngwg">
+                <ownedEnd xmi:id="_SqZxcbRTEeyJ3qcx02ngwg" name="дисциплинаs" type="_82s1kLRHEeyJ3qcx02ngwg" association="_SqZxcLRTEeyJ3qcx02ngwg">
+                  <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_SqZxcrRTEeyJ3qcx02ngwg"/>
+                  <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_SqZxc7RTEeyJ3qcx02ngwg" value="*"/>
+                </ownedEnd>
+                <ownedEnd xmi:id="_SqZxdLRTEeyJ3qcx02ngwg" name="преподавательs" type="_X1f3ALOHEeyv9Jcoos8vSA" association="_SqZxcLRTEeyJ3qcx02ngwg">
+                  <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_SqZxdbRTEeyJ3qcx02ngwg" value="1"/>
+                  <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_SqZxdrRTEeyJ3qcx02ngwg" value="1"/>
+                </ownedEnd>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Association" xmi:id="_X0pBsLRTEeyJ3qcx02ngwg" name=" " memberEnd="_X0pBsbRTEeyJ3qcx02ngwg _X0pBtLRTEeyJ3qcx02ngwg" navigableOwnedEnd="_X0pBsbRTEeyJ3qcx02ngwg _X0pBtLRTEeyJ3qcx02ngwg">
+                <ownedEnd xmi:id="_X0pBsbRTEeyJ3qcx02ngwg" name="дисциплинаs" type="_82s1kLRHEeyJ3qcx02ngwg" association="_X0pBsLRTEeyJ3qcx02ngwg">
+                  <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_X0pBsrRTEeyJ3qcx02ngwg"/>
+                  <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_X0pBs7RTEeyJ3qcx02ngwg" value="1"/>
+                </ownedEnd>
+                <ownedEnd xmi:id="_X0pBtLRTEeyJ3qcx02ngwg" name="тестs" type="_mhTO8LRJEeyJ3qcx02ngwg" association="_X0pBsLRTEeyJ3qcx02ngwg">
+                  <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_X0pBtbRTEeyJ3qcx02ngwg"/>
+                  <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_X0pBtrRTEeyJ3qcx02ngwg" value="1"/>
+                </ownedEnd>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Association" xmi:id="_pgH6ELRVEeyJ3qcx02ngwg" name=" " memberEnd="_pgH6EbRVEeyJ3qcx02ngwg _pgIhIbRVEeyJ3qcx02ngwg" navigableOwnedEnd="_pgIhIbRVEeyJ3qcx02ngwg">
+                <ownedEnd xmi:id="_pgH6EbRVEeyJ3qcx02ngwg" name="администраторs" type="_aWFkcLOHEeyv9Jcoos8vSA" association="_pgH6ELRVEeyJ3qcx02ngwg">
+                  <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_pgH6ErRVEeyJ3qcx02ngwg" value="1"/>
+                  <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_pgIhILRVEeyJ3qcx02ngwg" value="1"/>
+                </ownedEnd>
+                <ownedEnd xmi:id="_pgIhIbRVEeyJ3qcx02ngwg" name="оценкаs" type="_Nd8X4LOIEeyv9Jcoos8vSA" aggregation="shared" association="_pgH6ELRVEeyJ3qcx02ngwg">
+                  <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_pgIhIrRVEeyJ3qcx02ngwg" value="1"/>
+                  <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_pgIhI7RVEeyJ3qcx02ngwg" value="*"/>
+                </ownedEnd>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Association" xmi:id="_6J1q0LUEEeyiM_nmpdDFKw" name="формирует тест" memberEnd="_6J2R4LUEEeyiM_nmpdDFKw _6J248rUEEeyiM_nmpdDFKw" navigableOwnedEnd="_6J248rUEEeyiM_nmpdDFKw">
+                <ownedEnd xmi:id="_6J2R4LUEEeyiM_nmpdDFKw" name="преподавательs" type="_X1f3ALOHEeyv9Jcoos8vSA" association="_6J1q0LUEEeyiM_nmpdDFKw">
+                  <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_6J248LUEEeyiM_nmpdDFKw" value="1"/>
+                  <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_6J248bUEEeyiM_nmpdDFKw" value="1"/>
+                </ownedEnd>
+                <ownedEnd xmi:id="_6J248rUEEeyiM_nmpdDFKw" name="тестs" type="_mhTO8LRJEeyJ3qcx02ngwg" aggregation="shared" association="_6J1q0LUEEeyiM_nmpdDFKw">
+                  <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_6J3gALUEEeyiM_nmpdDFKw"/>
+                  <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_6J3gAbUEEeyiM_nmpdDFKw" value="*"/>
+                </ownedEnd>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Association" xmi:id="_6ASQwLUFEeyiM_nmpdDFKw" name="проходит тест" memberEnd="_6ASQwbUFEeyiM_nmpdDFKw _6AS30rUFEeyiM_nmpdDFKw" navigableOwnedEnd="_6AS30rUFEeyiM_nmpdDFKw">
+                <ownedEnd xmi:id="_6ASQwbUFEeyiM_nmpdDFKw" name="студентs" type="_i2sUsLH0EeyjNJ1OvHsKwg" association="_6ASQwLUFEeyiM_nmpdDFKw">
+                  <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_6AS30LUFEeyiM_nmpdDFKw" value="1"/>
+                  <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_6AS30bUFEeyiM_nmpdDFKw" value="1"/>
+                </ownedEnd>
+                <ownedEnd xmi:id="_6AS30rUFEeyiM_nmpdDFKw" name="тестs" type="_mhTO8LRJEeyJ3qcx02ngwg" aggregation="shared" association="_6ASQwLUFEeyiM_nmpdDFKw">
+                  <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_6AS307UFEeyiM_nmpdDFKw"/>
+                  <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_6AS31LUFEeyiM_nmpdDFKw" value="*"/>
+                </ownedEnd>
+              </packagedElement>
+            </packagedElement>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Package" xmi:id="_6ctEINXMEeyA99UA3-3t5Q" name="Auxiliary">
+            <packagedElement xmi:type="uml:Class" xmi:id="_PJLTMNXNEeyA99UA3-3t5Q" name="ConstNameWindows" visibility="public"/>
+            <packagedElement xmi:type="uml:Class" xmi:id="_SLLEkNXNEeyA99UA3-3t5Q" name="ConstTables" visibility="public"/>
+            <packagedElement xmi:type="uml:Class" xmi:id="_U5MxENXNEeyA99UA3-3t5Q" name="Shake" visibility="public">
+              <ownedOperation xmi:id="_PUNBANXZEeyA99UA3-3t5Q" name="playAnim"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Class" xmi:id="_WF_7YNXNEeyA99UA3-3t5Q" name="WorkWithScene" visibility="public"/>
+            <packagedElement xmi:type="uml:Package" xmi:id="_I6JWILREEeyJ3qcx02ngwg" name="Примитивы">
+              <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_hM450NXZEeyA99UA3-3t5Q" name="int"/>
+              <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_vj1UwNXaEeyA99UA3-3t5Q" name="boolean"/>
+              <packagedElement xmi:type="uml:Enumeration" xmi:id="_idq6UNXbEeyA99UA3-3t5Q" name="Question"/>
+              <packagedElement xmi:type="uml:Enumeration" xmi:id="_5t4RcNXbEeyA99UA3-3t5Q" name="String"/>
+            </packagedElement>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Package" xmi:id="_3ZDs8NXMEeyA99UA3-3t5Q" name="DataBase">
+            <packagedElement xmi:type="uml:Class" xmi:id="_dRSdYNXNEeyA99UA3-3t5Q" name="Configs" visibility="public">
+              <ownedAttribute xmi:id="_YG2F4NXaEeyA99UA3-3t5Q" name="dbHost" visibility="protected">
+                <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_YG2F4dXaEeyA99UA3-3t5Q"/>
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_YG2F4tXaEeyA99UA3-3t5Q" value="1"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_cK5KINXaEeyA99UA3-3t5Q" name="dbPort" visibility="protected">
+                <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_cK5KIdXaEeyA99UA3-3t5Q"/>
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_cK5KItXaEeyA99UA3-3t5Q" value="1"/>
+              </ownedAttribute>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Class" xmi:id="_fSZZgNXNEeyA99UA3-3t5Q" name="DataBaseHandler" visibility="public">
+              <ownedOperation xmi:id="_gQ-OsNXaEeyA99UA3-3t5Q" name="getDbConnection"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Dependency" xmi:id="_kFIZ0NX7EeyNxqOfgswTDw" client="_fSZZgNXNEeyA99UA3-3t5Q" supplier="_dRSdYNXNEeyA99UA3-3t5Q"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Dependency" xmi:id="_tQHisNX7EeyNxqOfgswTDw" client="_1M0e4NXMEeyA99UA3-3t5Q" supplier="_6ctEINXMEeyA99UA3-3t5Q"/>
+          <packagedElement xmi:type="uml:Dependency" xmi:id="_wkv8MNX7EeyNxqOfgswTDw" client="_1M0e4NXMEeyA99UA3-3t5Q" supplier="_3ZDs8NXMEeyA99UA3-3t5Q"/>
+          <packagedElement xmi:type="uml:Dependency" xmi:id="_xmtIcNX7EeyNxqOfgswTDw" client="_1M0e4NXMEeyA99UA3-3t5Q" supplier="_rj1ycNXMEeyA99UA3-3t5Q"/>
+        </nestedClassifier>
+        <nestedClassifier xmi:type="uml:Component" xmi:id="_McV64NYMEeyNxqOfgswTDw" name="Control">
+          <packagedElement xmi:type="uml:Package" xmi:id="_1M0e4NXMEeyA99UA3-3t5Q" name="Controller">
+            <packagedElement xmi:type="uml:Class" xmi:id="_HDAn4NXOEeyA99UA3-3t5Q" name="AdministratorMenuController" visibility="public">
+              <generalization xmi:id="_m6TsoNX6EeyNxqOfgswTDw" general="_JvQywNXOEeyA99UA3-3t5Q"/>
+              <ownedOperation xmi:id="_ffXgsNXcEeyA99UA3-3t5Q" name="initialize"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Class" xmi:id="_IA07ANXOEeyA99UA3-3t5Q" name="AppointDateTestController" visibility="public">
+              <generalization xmi:id="_0-O6YNX6EeyNxqOfgswTDw" general="_iI6W0NXREeyA99UA3-3t5Q"/>
+              <ownedOperation xmi:id="_hfSxENXcEeyA99UA3-3t5Q" name="initialize"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Class" xmi:id="_JvQywNXOEeyA99UA3-3t5Q" name="AuthenticationController" visibility="public">
+              <ownedOperation xmi:id="_hrbIkNXcEeyA99UA3-3t5Q" name="initialize"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Class" xmi:id="_TgqbYNXOEeyA99UA3-3t5Q" name="ChangeDisciplinesController" visibility="public">
+              <generalization xmi:id="_DA4yQNX6EeyNxqOfgswTDw" general="_HDAn4NXOEeyA99UA3-3t5Q"/>
+              <ownedOperation xmi:id="_h1QaANXcEeyA99UA3-3t5Q" name="initialize"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Class" xmi:id="_XvMRUNXOEeyA99UA3-3t5Q" name="ChangeDropTestController" visibility="public">
+              <generalization xmi:id="_yyFy8NX6EeyNxqOfgswTDw" general="_iI6W0NXREeyA99UA3-3t5Q"/>
+              <ownedOperation xmi:id="_iDJsENXcEeyA99UA3-3t5Q" name="initialize"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Class" xmi:id="_ef-BkNXOEeyA99UA3-3t5Q" name="ChangeGroupsController" visibility="public">
+              <generalization xmi:id="_FfuzQNX6EeyNxqOfgswTDw" general="_HDAn4NXOEeyA99UA3-3t5Q"/>
+              <ownedOperation xmi:id="_iXSJANXcEeyA99UA3-3t5Q" name="initialize"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Class" xmi:id="_f-l7sNXOEeyA99UA3-3t5Q" name="CreateNewTestController" visibility="public">
+              <generalization xmi:id="_2hpN4NX6EeyNxqOfgswTDw" general="_iI6W0NXREeyA99UA3-3t5Q"/>
+              <ownedOperation xmi:id="_iibCANXcEeyA99UA3-3t5Q" name="initialize"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Class" xmi:id="_g9Vb4NXOEeyA99UA3-3t5Q" name="CreateQuestionController" visibility="public">
+              <generalization xmi:id="_w1h_oNX6EeyNxqOfgswTDw" general="_iI6W0NXREeyA99UA3-3t5Q"/>
+              <ownedOperation xmi:id="_iukAkNXcEeyA99UA3-3t5Q" name="initialize"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Class" xmi:id="_iJuWgNXOEeyA99UA3-3t5Q" name="DeleteUserController" visibility="public">
+              <generalization xmi:id="_ONAscNX6EeyNxqOfgswTDw" general="_HDAn4NXOEeyA99UA3-3t5Q"/>
+              <ownedOperation xmi:id="_i56U8NXcEeyA99UA3-3t5Q" name="initialize"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Class" xmi:id="_jNs8ANXOEeyA99UA3-3t5Q" name="PassTestController" visibility="public">
+              <ownedOperation xmi:id="_jEE9kNXcEeyA99UA3-3t5Q" name="initialize"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Class" xmi:id="_kZeLkNXOEeyA99UA3-3t5Q" name="RegStudentController" visibility="public">
+              <generalization xmi:id="_EkzcENX6EeyNxqOfgswTDw" general="_HDAn4NXOEeyA99UA3-3t5Q"/>
+              <ownedOperation xmi:id="_jPQS0NXcEeyA99UA3-3t5Q" name="initialize"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Class" xmi:id="_duPiUNXREeyA99UA3-3t5Q" name="RegTeacherController" visibility="public">
+              <generalization xmi:id="_D7gncNX6EeyNxqOfgswTDw" general="_HDAn4NXOEeyA99UA3-3t5Q"/>
+              <ownedOperation xmi:id="_jZraINXcEeyA99UA3-3t5Q" name="initialize"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Class" xmi:id="_e2rKANXREeyA99UA3-3t5Q" name="ShowResultTestController" visibility="public">
+              <generalization xmi:id="_JgddwNX6EeyNxqOfgswTDw" general="_HDAn4NXOEeyA99UA3-3t5Q"/>
+              <ownedOperation xmi:id="_jjtf4NXcEeyA99UA3-3t5Q" name="initialize"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Class" xmi:id="_g8veoNXREeyA99UA3-3t5Q" name="StudentMenuController" visibility="public">
+              <generalization xmi:id="_nnwogNX6EeyNxqOfgswTDw" general="_JvQywNXOEeyA99UA3-3t5Q"/>
+              <ownedOperation xmi:id="_juRKENXcEeyA99UA3-3t5Q" name="initialize"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Class" xmi:id="_iI6W0NXREeyA99UA3-3t5Q" name="TeacherMenuController" visibility="public">
+              <generalization xmi:id="_mPEXQNX6EeyNxqOfgswTDw" general="_JvQywNXOEeyA99UA3-3t5Q"/>
+              <ownedOperation xmi:id="_j4YIUNXcEeyA99UA3-3t5Q" name="initialize"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_W5m7ENX4EeyNxqOfgswTDw" name=" " memberEnd="_W5m7EdX4EeyNxqOfgswTDw _W5m7FNX4EeyNxqOfgswTDw" navigableOwnedEnd="_W5m7EdX4EeyNxqOfgswTDw _W5m7FNX4EeyNxqOfgswTDw">
+              <ownedEnd xmi:id="_W5m7EdX4EeyNxqOfgswTDw" name="" type="_g8veoNXREeyA99UA3-3t5Q" association="_W5m7ENX4EeyNxqOfgswTDw">
+                <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_W5m7EtX4EeyNxqOfgswTDw" value="1"/>
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_W5m7E9X4EeyNxqOfgswTDw" value="1"/>
+              </ownedEnd>
+              <ownedEnd xmi:id="_W5m7FNX4EeyNxqOfgswTDw" name="" type="_jNs8ANXOEeyA99UA3-3t5Q" association="_W5m7ENX4EeyNxqOfgswTDw">
+                <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_W5m7FdX4EeyNxqOfgswTDw" value="1"/>
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_W5m7FtX4EeyNxqOfgswTDw" value="1"/>
+              </ownedEnd>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Package" xmi:id="_l-D5sLNyEeyv9Jcoos8vSA" name="Поведение">
+              <packagedElement xmi:type="uml:Package" xmi:id="_NT_ekLNwEeyv9Jcoos8vSA" name="Актеры">
+                <packagedElement xmi:type="uml:Actor" xmi:id="_56HbwLHuEeyjNJ1OvHsKwg" name="Администратор">
+                  <eAnnotations xmi:id="_56IC0LHuEeyjNJ1OvHsKwg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                    <details xmi:id="_56IC0bHuEeyjNJ1OvHsKwg" key="Human"/>
+                  </eAnnotations>
+                  <generalization xmi:id="_wSj2MLHvEeyjNJ1OvHsKwg" general="_jkmV0LHvEeyjNJ1OvHsKwg"/>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Actor" xmi:id="_jkmV0LHvEeyjNJ1OvHsKwg" name="Пользователь">
+                  <eAnnotations xmi:id="_jkmV0bHvEeyjNJ1OvHsKwg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                    <details xmi:id="_jkmV0rHvEeyjNJ1OvHsKwg" key="Human"/>
+                  </eAnnotations>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Actor" xmi:id="_qoQl0LHvEeyjNJ1OvHsKwg" name="Студент">
+                  <eAnnotations xmi:id="_qoQl0bHvEeyjNJ1OvHsKwg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                    <details xmi:id="_qoQl0rHvEeyjNJ1OvHsKwg" key="Human"/>
+                  </eAnnotations>
+                  <generalization xmi:id="_R06n4LN3Eeyv9Jcoos8vSA" general="_jkmV0LHvEeyjNJ1OvHsKwg"/>
+                  <ownedUseCase xmi:id="_owEi4LH0EeyjNJ1OvHsKwg"/>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Actor" xmi:id="_rw5B0LHvEeyjNJ1OvHsKwg" name="Преподаватель">
+                  <eAnnotations xmi:id="_rw5o4LHvEeyjNJ1OvHsKwg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                    <details xmi:id="_rw5o4bHvEeyjNJ1OvHsKwg" key="Human"/>
+                  </eAnnotations>
+                  <generalization xmi:id="_w4fNwLHvEeyjNJ1OvHsKwg" general="_jkmV0LHvEeyjNJ1OvHsKwg"/>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Usage" xmi:id="_dVW-gLNyEeyv9Jcoos8vSA" client="_NT_ekLNwEeyv9Jcoos8vSA" supplier="_JNVgULNyEeyv9Jcoos8vSA"/>
+                <packagedElement xmi:type="uml:Association" xmi:id="_idxgcNW5EeyA99UA3-3t5Q" memberEnd="_idxgcdW5EeyA99UA3-3t5Q _idxgctW5EeyA99UA3-3t5Q">
+                  <ownedEnd xmi:id="_idxgcdW5EeyA99UA3-3t5Q" type="_56HbwLHuEeyjNJ1OvHsKwg" association="_idxgcNW5EeyA99UA3-3t5Q"/>
+                  <ownedEnd xmi:id="_idxgctW5EeyA99UA3-3t5Q" type="_J_xggNW5EeyA99UA3-3t5Q" association="_idxgcNW5EeyA99UA3-3t5Q"/>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Association" xmi:id="_i9-DcNW5EeyA99UA3-3t5Q" memberEnd="_i9-DcdW5EeyA99UA3-3t5Q _i9-DctW5EeyA99UA3-3t5Q">
+                  <ownedEnd xmi:id="_i9-DcdW5EeyA99UA3-3t5Q" type="_56HbwLHuEeyjNJ1OvHsKwg" association="_i9-DcNW5EeyA99UA3-3t5Q"/>
+                  <ownedEnd xmi:id="_i9-DctW5EeyA99UA3-3t5Q" type="_RQzTkNW4EeyA99UA3-3t5Q" association="_i9-DcNW5EeyA99UA3-3t5Q"/>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Association" xmi:id="_je8pkNW5EeyA99UA3-3t5Q" memberEnd="_je8pkdW5EeyA99UA3-3t5Q _je8pktW5EeyA99UA3-3t5Q">
+                  <ownedEnd xmi:id="_je8pkdW5EeyA99UA3-3t5Q" type="_56HbwLHuEeyjNJ1OvHsKwg" association="_je8pkNW5EeyA99UA3-3t5Q"/>
+                  <ownedEnd xmi:id="_je8pktW5EeyA99UA3-3t5Q" type="_MCfmMNW5EeyA99UA3-3t5Q" association="_je8pkNW5EeyA99UA3-3t5Q"/>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Association" xmi:id="_D-Ue8NW6EeyA99UA3-3t5Q" memberEnd="_D-VGANW6EeyA99UA3-3t5Q _D-VGAdW6EeyA99UA3-3t5Q">
+                  <ownedEnd xmi:id="_D-VGANW6EeyA99UA3-3t5Q" type="_rw5B0LHvEeyjNJ1OvHsKwg" association="_D-Ue8NW6EeyA99UA3-3t5Q"/>
+                  <ownedEnd xmi:id="_D-VGAdW6EeyA99UA3-3t5Q" type="_-MxXENW5EeyA99UA3-3t5Q" association="_D-Ue8NW6EeyA99UA3-3t5Q"/>
+                </packagedElement>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Package" xmi:id="_JNVgULNyEeyv9Jcoos8vSA" name="Варианты использования">
+                <packagedElement xmi:type="uml:UseCase" xmi:id="_76mFwLHuEeyjNJ1OvHsKwg" name="Регистрация пользователей" subject="_nkDVMLN0Eeyv9Jcoos8vSA">
+                  <ownedBehavior xmi:type="uml:Activity" xmi:id="_6ZzM4LUZEeyiM_nmpdDFKw" name="Регистрация пользователей activity" node="_9AneILUZEeyiM_nmpdDFKw _ADDUYLUaEeyiM_nmpdDFKw _KDcbQLUaEeyiM_nmpdDFKw _NeY4ILUaEeyiM_nmpdDFKw _Tc7TILUaEeyiM_nmpdDFKw _uoXwwLUaEeyiM_nmpdDFKw _w2YgcLUaEeyiM_nmpdDFKw _1qER4LUaEeyiM_nmpdDFKw _3Sx8ILUaEeyiM_nmpdDFKw">
+                    <edge xmi:type="uml:ControlFlow" xmi:id="_6XCXULUaEeyiM_nmpdDFKw" target="_ADDUYLUaEeyiM_nmpdDFKw" source="_9AneILUZEeyiM_nmpdDFKw">
+                      <guard xmi:type="uml:LiteralBoolean" xmi:id="_6XCXUbUaEeyiM_nmpdDFKw" name="Начало_To__guard" value="true"/>
+                      <weight xmi:type="uml:LiteralInteger" xmi:id="_6XCXUrUaEeyiM_nmpdDFKw" name="Начало_To__weight"/>
+                    </edge>
+                    <edge xmi:type="uml:ControlFlow" xmi:id="_7GZXsLUaEeyiM_nmpdDFKw" name="Зарегистрировать преподавателя" target="_KDcbQLUaEeyiM_nmpdDFKw" source="_ADDUYLUaEeyiM_nmpdDFKw">
+                      <guard xmi:type="uml:LiteralBoolean" xmi:id="_7GZXsbUaEeyiM_nmpdDFKw" name="_To__guard" value="true"/>
+                      <weight xmi:type="uml:LiteralInteger" xmi:id="_7GZXsrUaEeyiM_nmpdDFKw" name="_To__weight"/>
+                    </edge>
+                    <edge xmi:type="uml:ControlFlow" xmi:id="_7sMzcLUaEeyiM_nmpdDFKw" name="Зарегистрировать студента" target="_NeY4ILUaEeyiM_nmpdDFKw" source="_ADDUYLUaEeyiM_nmpdDFKw">
+                      <guard xmi:type="uml:LiteralBoolean" xmi:id="_7sMzcbUaEeyiM_nmpdDFKw" name="_To__guard" value="true"/>
+                      <weight xmi:type="uml:LiteralInteger" xmi:id="_7sMzcrUaEeyiM_nmpdDFKw" name="_To__weight"/>
+                    </edge>
+                    <edge xmi:type="uml:ControlFlow" xmi:id="_B9UzQLUbEeyiM_nmpdDFKw" target="_3Sx8ILUaEeyiM_nmpdDFKw" source="_KDcbQLUaEeyiM_nmpdDFKw">
+                      <guard xmi:type="uml:LiteralBoolean" xmi:id="_B9UzQbUbEeyiM_nmpdDFKw" name="_To__guard" value="true"/>
+                      <weight xmi:type="uml:LiteralInteger" xmi:id="_B9UzQrUbEeyiM_nmpdDFKw" name="_To__weight"/>
+                    </edge>
+                    <edge xmi:type="uml:ControlFlow" xmi:id="_Ci8o0LUbEeyiM_nmpdDFKw" target="_3Sx8ILUaEeyiM_nmpdDFKw" source="_NeY4ILUaEeyiM_nmpdDFKw">
+                      <guard xmi:type="uml:LiteralBoolean" xmi:id="_Ci8o0bUbEeyiM_nmpdDFKw" name="_To__guard" value="true"/>
+                      <weight xmi:type="uml:LiteralInteger" xmi:id="_Ci8o0rUbEeyiM_nmpdDFKw" name="_To__weight"/>
+                    </edge>
+                    <edge xmi:type="uml:ControlFlow" xmi:id="_Ei4gQLUbEeyiM_nmpdDFKw" target="_uoXwwLUaEeyiM_nmpdDFKw" source="_3Sx8ILUaEeyiM_nmpdDFKw">
+                      <guard xmi:type="uml:LiteralBoolean" xmi:id="_Ei4gQbUbEeyiM_nmpdDFKw" name="_To_Ввести Логин_guard" value="true"/>
+                      <weight xmi:type="uml:LiteralInteger" xmi:id="_Ei4gQrUbEeyiM_nmpdDFKw" name="_To_Ввести Логин_weight"/>
+                    </edge>
+                    <edge xmi:type="uml:ControlFlow" xmi:id="_FjrO4LUbEeyiM_nmpdDFKw" target="_w2YgcLUaEeyiM_nmpdDFKw" source="_uoXwwLUaEeyiM_nmpdDFKw">
+                      <guard xmi:type="uml:LiteralBoolean" xmi:id="_FjrO4bUbEeyiM_nmpdDFKw" name="Ввести Логин_To_Ввести пароль_guard" value="true"/>
+                      <weight xmi:type="uml:LiteralInteger" xmi:id="_FjrO4rUbEeyiM_nmpdDFKw" name="Ввести Логин_To_Ввести пароль_weight"/>
+                    </edge>
+                    <edge xmi:type="uml:ControlFlow" xmi:id="_GRU_ELUbEeyiM_nmpdDFKw" target="_Tc7TILUaEeyiM_nmpdDFKw" source="_w2YgcLUaEeyiM_nmpdDFKw">
+                      <guard xmi:type="uml:LiteralBoolean" xmi:id="_GRU_EbUbEeyiM_nmpdDFKw" name="Ввести пароль_To_Пользователь [зарегистрирован в системе]_guard" value="true"/>
+                      <weight xmi:type="uml:LiteralInteger" xmi:id="_GRU_ErUbEeyiM_nmpdDFKw" name="Ввести пароль_To_Пользователь [зарегистрирован в системе]_weight"/>
+                    </edge>
+                    <edge xmi:type="uml:ControlFlow" xmi:id="_G3iqgLUbEeyiM_nmpdDFKw" target="_1qER4LUaEeyiM_nmpdDFKw" source="_Tc7TILUaEeyiM_nmpdDFKw">
+                      <guard xmi:type="uml:LiteralBoolean" xmi:id="_G3iqgbUbEeyiM_nmpdDFKw" name="Пользователь [зарегистрирован в системе]_To_Конец_guard" value="true"/>
+                      <weight xmi:type="uml:LiteralInteger" xmi:id="_G3iqgrUbEeyiM_nmpdDFKw" name="Пользователь [зарегистрирован в системе]_To_Конец_weight"/>
+                    </edge>
+                    <node xmi:type="uml:InitialNode" xmi:id="_9AneILUZEeyiM_nmpdDFKw" name="Начало" outgoing="_6XCXULUaEeyiM_nmpdDFKw"/>
+                    <node xmi:type="uml:DecisionNode" xmi:id="_ADDUYLUaEeyiM_nmpdDFKw" name="" incoming="_6XCXULUaEeyiM_nmpdDFKw" outgoing="_7GZXsLUaEeyiM_nmpdDFKw _7sMzcLUaEeyiM_nmpdDFKw"/>
+                    <node xmi:type="uml:CallBehaviorAction" xmi:id="_KDcbQLUaEeyiM_nmpdDFKw" incoming="_7GZXsLUaEeyiM_nmpdDFKw" outgoing="_B9UzQLUbEeyiM_nmpdDFKw" behavior="_3uf5sLUYEeyiM_nmpdDFKw"/>
+                    <node xmi:type="uml:CallBehaviorAction" xmi:id="_NeY4ILUaEeyiM_nmpdDFKw" incoming="_7sMzcLUaEeyiM_nmpdDFKw" outgoing="_Ci8o0LUbEeyiM_nmpdDFKw" behavior="_tIJbgLUXEeyiM_nmpdDFKw"/>
+                    <node xmi:type="uml:DataStoreNode" xmi:id="_Tc7TILUaEeyiM_nmpdDFKw" name="Пользователь [зарегистрирован в системе]" incoming="_GRU_ELUbEeyiM_nmpdDFKw" outgoing="_G3iqgLUbEeyiM_nmpdDFKw"/>
+                    <node xmi:type="uml:OpaqueAction" xmi:id="_uoXwwLUaEeyiM_nmpdDFKw" name="Ввести Логин" incoming="_Ei4gQLUbEeyiM_nmpdDFKw" outgoing="_FjrO4LUbEeyiM_nmpdDFKw">
+                      <body>// TODO body of OpaqueAction1</body>
+                    </node>
+                    <node xmi:type="uml:OpaqueAction" xmi:id="_w2YgcLUaEeyiM_nmpdDFKw" name="Ввести пароль" incoming="_FjrO4LUbEeyiM_nmpdDFKw" outgoing="_GRU_ELUbEeyiM_nmpdDFKw">
+                      <body>// TODO body of OpaqueAction2</body>
+                    </node>
+                    <node xmi:type="uml:ActivityFinalNode" xmi:id="_1qER4LUaEeyiM_nmpdDFKw" name="Конец" incoming="_G3iqgLUbEeyiM_nmpdDFKw"/>
+                    <node xmi:type="uml:MergeNode" xmi:id="_3Sx8ILUaEeyiM_nmpdDFKw" name="" incoming="_B9UzQLUbEeyiM_nmpdDFKw _Ci8o0LUbEeyiM_nmpdDFKw" outgoing="_Ei4gQLUbEeyiM_nmpdDFKw"/>
+                  </ownedBehavior>
+                </packagedElement>
+                <packagedElement xmi:type="uml:UseCase" xmi:id="_Vjs8ALHxEeyjNJ1OvHsKwg" name="Рагистрация преподавателя" subject="_nkDVMLN0Eeyv9Jcoos8vSA">
+                  <generalization xmi:id="_iyi74LHxEeyjNJ1OvHsKwg" general="_76mFwLHuEeyjNJ1OvHsKwg"/>
+                  <ownedBehavior xmi:type="uml:Activity" xmi:id="_3uf5sLUYEeyiM_nmpdDFKw" name="Рагистрация преподавателя activity" node="_5L_LYLUYEeyiM_nmpdDFKw _6oJnYLUYEeyiM_nmpdDFKw _7_EXALUYEeyiM_nmpdDFKw _DgxN4LUZEeyiM_nmpdDFKw _HKRrMLUZEeyiM_nmpdDFKw _ZFWJoLUZEeyiM_nmpdDFKw">
+                    <edge xmi:type="uml:ControlFlow" xmi:id="_keCgMLUZEeyiM_nmpdDFKw" target="_7_EXALUYEeyiM_nmpdDFKw" source="_5L_LYLUYEeyiM_nmpdDFKw">
+                      <guard xmi:type="uml:LiteralBoolean" xmi:id="_keCgMbUZEeyiM_nmpdDFKw" name="Начало_To_Ввести ФИО_guard" value="true"/>
+                      <weight xmi:type="uml:LiteralInteger" xmi:id="_keCgMrUZEeyiM_nmpdDFKw" name="Начало_To_Ввести ФИО_weight"/>
+                    </edge>
+                    <edge xmi:type="uml:ControlFlow" xmi:id="_k5OAULUZEeyiM_nmpdDFKw" target="_DgxN4LUZEeyiM_nmpdDFKw" source="_7_EXALUYEeyiM_nmpdDFKw">
+                      <guard xmi:type="uml:LiteralBoolean" xmi:id="_k5OAUbUZEeyiM_nmpdDFKw" name="Ввести ФИО_To_Ввести дисциплину_guard" value="true"/>
+                      <weight xmi:type="uml:LiteralInteger" xmi:id="_k5OAUrUZEeyiM_nmpdDFKw" name="Ввести ФИО_To_Ввести дисциплину_weight"/>
+                    </edge>
+                    <edge xmi:type="uml:ControlFlow" xmi:id="_mt8tULUZEeyiM_nmpdDFKw">
+                      <guard xmi:type="uml:LiteralBoolean" xmi:id="_mt8tUbUZEeyiM_nmpdDFKw" name="Ввести логин_To_Ввести пароль_guard" value="true"/>
+                      <weight xmi:type="uml:LiteralInteger" xmi:id="_mt9UYLUZEeyiM_nmpdDFKw" name="Ввести логин_To_Ввести пароль_weight"/>
+                    </edge>
+                    <edge xmi:type="uml:ControlFlow" xmi:id="_t6sA0LUZEeyiM_nmpdDFKw" target="_HKRrMLUZEeyiM_nmpdDFKw" source="_DgxN4LUZEeyiM_nmpdDFKw">
+                      <guard xmi:type="uml:LiteralBoolean" xmi:id="_t6sA0bUZEeyiM_nmpdDFKw" name="Ввести дисциплину_To_Добавить новую дисциплину_guard" value="true"/>
+                      <weight xmi:type="uml:LiteralInteger" xmi:id="_t6sA0rUZEeyiM_nmpdDFKw" name="Ввести дисциплину_To_Добавить новую дисциплину_weight"/>
+                    </edge>
+                    <edge xmi:type="uml:ControlFlow" xmi:id="_ut4_YLUZEeyiM_nmpdDFKw" name="Добавить" target="_DgxN4LUZEeyiM_nmpdDFKw" source="_HKRrMLUZEeyiM_nmpdDFKw">
+                      <guard xmi:type="uml:LiteralBoolean" xmi:id="_ut4_YbUZEeyiM_nmpdDFKw" name="Добавить новую дисциплину_To_Ввести дисциплину_guard" value="true"/>
+                      <weight xmi:type="uml:LiteralInteger" xmi:id="_ut4_YrUZEeyiM_nmpdDFKw" name="Добавить новую дисциплину_To_Ввести дисциплину_weight"/>
+                    </edge>
+                    <edge xmi:type="uml:ControlFlow" xmi:id="_ym-w0LUZEeyiM_nmpdDFKw" name="Не добавлять" target="_ZFWJoLUZEeyiM_nmpdDFKw" source="_HKRrMLUZEeyiM_nmpdDFKw">
+                      <guard xmi:type="uml:LiteralBoolean" xmi:id="_ym-w0bUZEeyiM_nmpdDFKw" name="Добавить новую дисциплину_To_Ввести логин_guard" value="true"/>
+                      <weight xmi:type="uml:LiteralInteger" xmi:id="_ym_X4LUZEeyiM_nmpdDFKw" name="Добавить новую дисциплину_To_Ввести логин_weight"/>
+                    </edge>
+                    <edge xmi:type="uml:ControlFlow" xmi:id="_203tkLUZEeyiM_nmpdDFKw" target="_ZFWJoLUZEeyiM_nmpdDFKw">
+                      <guard xmi:type="uml:LiteralBoolean" xmi:id="_203tkbUZEeyiM_nmpdDFKw" name="Ввести пароль_To_Преподаватель [создан]_guard" value="true"/>
+                      <weight xmi:type="uml:LiteralInteger" xmi:id="_203tkrUZEeyiM_nmpdDFKw" name="Ввести пароль_To_Преподаватель [создан]_weight"/>
+                    </edge>
+                    <edge xmi:type="uml:ControlFlow" xmi:id="_3nQMwLUZEeyiM_nmpdDFKw" target="_6oJnYLUYEeyiM_nmpdDFKw" source="_ZFWJoLUZEeyiM_nmpdDFKw">
+                      <guard xmi:type="uml:LiteralBoolean" xmi:id="_3nQMwbUZEeyiM_nmpdDFKw" name="Преподаватель [создан]_To_Конец_guard" value="true"/>
+                      <weight xmi:type="uml:LiteralInteger" xmi:id="_3nQMwrUZEeyiM_nmpdDFKw" name="Преподаватель [создан]_To_Конец_weight"/>
+                    </edge>
+                    <node xmi:type="uml:InitialNode" xmi:id="_5L_LYLUYEeyiM_nmpdDFKw" name="Начало" outgoing="_keCgMLUZEeyiM_nmpdDFKw"/>
+                    <node xmi:type="uml:ActivityFinalNode" xmi:id="_6oJnYLUYEeyiM_nmpdDFKw" name="Конец" incoming="_3nQMwLUZEeyiM_nmpdDFKw"/>
+                    <node xmi:type="uml:OpaqueAction" xmi:id="_7_EXALUYEeyiM_nmpdDFKw" name="Ввести ФИО" incoming="_keCgMLUZEeyiM_nmpdDFKw" outgoing="_k5OAULUZEeyiM_nmpdDFKw">
+                      <body>// TODO body of OpaqueAction1</body>
+                    </node>
+                    <node xmi:type="uml:OpaqueAction" xmi:id="_DgxN4LUZEeyiM_nmpdDFKw" name="Ввести дисциплину" incoming="_k5OAULUZEeyiM_nmpdDFKw _ut4_YLUZEeyiM_nmpdDFKw" outgoing="_t6sA0LUZEeyiM_nmpdDFKw">
+                      <body>// TODO body of OpaqueAction2</body>
+                    </node>
+                    <node xmi:type="uml:DecisionNode" xmi:id="_HKRrMLUZEeyiM_nmpdDFKw" name="Добавить новую дисциплину" incoming="_t6sA0LUZEeyiM_nmpdDFKw" outgoing="_ut4_YLUZEeyiM_nmpdDFKw _ym-w0LUZEeyiM_nmpdDFKw"/>
+                    <node xmi:type="uml:DataStoreNode" xmi:id="_ZFWJoLUZEeyiM_nmpdDFKw" name="Преподаватель [создан]" incoming="_203tkLUZEeyiM_nmpdDFKw _ym-w0LUZEeyiM_nmpdDFKw" outgoing="_3nQMwLUZEeyiM_nmpdDFKw"/>
+                  </ownedBehavior>
+                </packagedElement>
+                <packagedElement xmi:type="uml:UseCase" xmi:id="_VBLdwLHxEeyjNJ1OvHsKwg" name="Регистрация студента" subject="_nkDVMLN0Eeyv9Jcoos8vSA">
+                  <generalization xmi:id="_ia6fALHxEeyjNJ1OvHsKwg" general="_76mFwLHuEeyjNJ1OvHsKwg"/>
+                  <ownedBehavior xmi:type="uml:Activity" xmi:id="_tIJbgLUXEeyiM_nmpdDFKw" name="Регистрация студента activity" node="_xp_PALUXEeyiM_nmpdDFKw _zWGykLUXEeyiM_nmpdDFKw _0kpCQLUXEeyiM_nmpdDFKw _6FI2YLUXEeyiM_nmpdDFKw _SH-H0LUZEeyiM_nmpdDFKw">
+                    <edge xmi:type="uml:ControlFlow" xmi:id="_GlupILUYEeyiM_nmpdDFKw" target="_xp_PALUXEeyiM_nmpdDFKw" source="_zWGykLUXEeyiM_nmpdDFKw">
+                      <guard xmi:type="uml:LiteralBoolean" xmi:id="_GlupIbUYEeyiM_nmpdDFKw" name="Начало_To_Ввести ФИО_guard" value="true"/>
+                      <weight xmi:type="uml:LiteralInteger" xmi:id="_GlupIrUYEeyiM_nmpdDFKw" name="Начало_To_Ввести ФИО_weight"/>
+                    </edge>
+                    <edge xmi:type="uml:ControlFlow" xmi:id="_J8iM4LUYEeyiM_nmpdDFKw" target="_6FI2YLUXEeyiM_nmpdDFKw" source="_xp_PALUXEeyiM_nmpdDFKw">
+                      <guard xmi:type="uml:LiteralBoolean" xmi:id="_J8iM4bUYEeyiM_nmpdDFKw" name="Ввести ФИО_To_Ввести группу_guard" value="true"/>
+                      <weight xmi:type="uml:LiteralInteger" xmi:id="_J8iM4rUYEeyiM_nmpdDFKw" name="Ввести ФИО_To_Ввести группу_weight"/>
+                    </edge>
+                    <edge xmi:type="uml:ControlFlow" xmi:id="_LxwpILUYEeyiM_nmpdDFKw" target="_SH-H0LUZEeyiM_nmpdDFKw" source="_6FI2YLUXEeyiM_nmpdDFKw">
+                      <guard xmi:type="uml:LiteralBoolean" xmi:id="_LxwpIbUYEeyiM_nmpdDFKw" name="Ввести группу_To_Ввести Логин_guard" value="true"/>
+                      <weight xmi:type="uml:LiteralInteger" xmi:id="_LxwpIrUYEeyiM_nmpdDFKw" name="Ввести группу_To_Ввести Логин_weight"/>
+                    </edge>
+                    <edge xmi:type="uml:ControlFlow" xmi:id="_MYkxgLUYEeyiM_nmpdDFKw">
+                      <guard xmi:type="uml:LiteralBoolean" xmi:id="_MYkxgbUYEeyiM_nmpdDFKw" name="Ввести Логин_To_Ввести пароль_guard" value="true"/>
+                      <weight xmi:type="uml:LiteralInteger" xmi:id="_MYkxgrUYEeyiM_nmpdDFKw" name="Ввести Логин_To_Ввести пароль_weight"/>
+                    </edge>
+                    <edge xmi:type="uml:ControlFlow" xmi:id="_XDUngLUZEeyiM_nmpdDFKw" target="_SH-H0LUZEeyiM_nmpdDFKw">
+                      <guard xmi:type="uml:LiteralBoolean" xmi:id="_XDUngbUZEeyiM_nmpdDFKw" name="Ввести пароль_To_Студент [создан]_guard" value="true"/>
+                      <weight xmi:type="uml:LiteralInteger" xmi:id="_XDUngrUZEeyiM_nmpdDFKw" name="Ввести пароль_To_Студент [создан]_weight"/>
+                    </edge>
+                    <edge xmi:type="uml:ControlFlow" xmi:id="_XvcGoLUZEeyiM_nmpdDFKw" target="_0kpCQLUXEeyiM_nmpdDFKw" source="_SH-H0LUZEeyiM_nmpdDFKw">
+                      <guard xmi:type="uml:LiteralBoolean" xmi:id="_XvcGobUZEeyiM_nmpdDFKw" name="Студент [создан]_To_Конец_guard" value="true"/>
+                      <weight xmi:type="uml:LiteralInteger" xmi:id="_XvcGorUZEeyiM_nmpdDFKw" name="Студент [создан]_To_Конец_weight"/>
+                    </edge>
+                    <node xmi:type="uml:OpaqueAction" xmi:id="_xp_PALUXEeyiM_nmpdDFKw" name="Ввести ФИО" incoming="_GlupILUYEeyiM_nmpdDFKw" outgoing="_J8iM4LUYEeyiM_nmpdDFKw">
+                      <body>// TODO body of OpaqueAction1</body>
+                    </node>
+                    <node xmi:type="uml:InitialNode" xmi:id="_zWGykLUXEeyiM_nmpdDFKw" name="Начало" outgoing="_GlupILUYEeyiM_nmpdDFKw"/>
+                    <node xmi:type="uml:ActivityFinalNode" xmi:id="_0kpCQLUXEeyiM_nmpdDFKw" name="Конец" incoming="_XvcGoLUZEeyiM_nmpdDFKw"/>
+                    <node xmi:type="uml:OpaqueAction" xmi:id="_6FI2YLUXEeyiM_nmpdDFKw" name="Ввести группу" incoming="_J8iM4LUYEeyiM_nmpdDFKw" outgoing="_LxwpILUYEeyiM_nmpdDFKw">
+                      <body>// TODO body of OpaqueAction2</body>
+                    </node>
+                    <node xmi:type="uml:DataStoreNode" xmi:id="_SH-H0LUZEeyiM_nmpdDFKw" name="Студент [создан]" incoming="_XDUngLUZEeyiM_nmpdDFKw _LxwpILUYEeyiM_nmpdDFKw" outgoing="_XvcGoLUZEeyiM_nmpdDFKw"/>
+                  </ownedBehavior>
+                </packagedElement>
+                <packagedElement xmi:type="uml:UseCase" xmi:id="_LAzP4LHvEeyjNJ1OvHsKwg" name="Просмотр результатов тестирования" subject="_nkDVMLN0Eeyv9Jcoos8vSA">
+                  <ownedBehavior xmi:type="uml:Activity" xmi:id="_O5unALUVEeyiM_nmpdDFKw" name="Просмотр результатов тестирования activity" node="_9OOZILUVEeyiM_nmpdDFKw _FflLULUWEeyiM_nmpdDFKw _Zw5IYLUWEeyiM_nmpdDFKw _hWwtkLUWEeyiM_nmpdDFKw _wvlRsLUWEeyiM_nmpdDFKw">
+                    <edge xmi:type="uml:ControlFlow" xmi:id="_5tr1ILUWEeyiM_nmpdDFKw" target="_Zw5IYLUWEeyiM_nmpdDFKw" source="_9OOZILUVEeyiM_nmpdDFKw">
+                      <guard xmi:type="uml:LiteralBoolean" xmi:id="_5tr1IbUWEeyiM_nmpdDFKw" name="Начало_To__guard" value="true"/>
+                      <weight xmi:type="uml:LiteralInteger" xmi:id="_5tr1IrUWEeyiM_nmpdDFKw" name="Начало_To__weight"/>
+                    </edge>
+                    <edge xmi:type="uml:ControlFlow" xmi:id="_6TB94LUWEeyiM_nmpdDFKw" target="_hWwtkLUWEeyiM_nmpdDFKw" source="_Zw5IYLUWEeyiM_nmpdDFKw">
+                      <guard xmi:type="uml:LiteralBoolean" xmi:id="_6TB94bUWEeyiM_nmpdDFKw" name="_To__guard" value="true"/>
+                      <weight xmi:type="uml:LiteralInteger" xmi:id="_6TB94rUWEeyiM_nmpdDFKw" name="_To__weight"/>
+                    </edge>
+                    <edge xmi:type="uml:ControlFlow" xmi:id="_63f84LUWEeyiM_nmpdDFKw" target="_wvlRsLUWEeyiM_nmpdDFKw" source="_hWwtkLUWEeyiM_nmpdDFKw">
+                      <guard xmi:type="uml:LiteralBoolean" xmi:id="_63gj8LUWEeyiM_nmpdDFKw" name="_To_Вывод результатов тестирования_guard" value="true"/>
+                      <weight xmi:type="uml:LiteralInteger" xmi:id="_63gj8bUWEeyiM_nmpdDFKw" name="_To_Вывод результатов тестирования_weight"/>
+                    </edge>
+                    <edge xmi:type="uml:ControlFlow" xmi:id="_7erRoLUWEeyiM_nmpdDFKw" target="_FflLULUWEeyiM_nmpdDFKw" source="_wvlRsLUWEeyiM_nmpdDFKw">
+                      <guard xmi:type="uml:LiteralBoolean" xmi:id="_7erRobUWEeyiM_nmpdDFKw" name="Вывод результатов тестирования_To_Конец_guard" value="true"/>
+                      <weight xmi:type="uml:LiteralInteger" xmi:id="_7esfwLUWEeyiM_nmpdDFKw" name="Вывод результатов тестирования_To_Конец_weight"/>
+                    </edge>
+                    <node xmi:type="uml:InitialNode" xmi:id="_9OOZILUVEeyiM_nmpdDFKw" name="Начало" outgoing="_5tr1ILUWEeyiM_nmpdDFKw"/>
+                    <node xmi:type="uml:ActivityFinalNode" xmi:id="_FflLULUWEeyiM_nmpdDFKw" name="Конец" incoming="_7erRoLUWEeyiM_nmpdDFKw"/>
+                    <node xmi:type="uml:CallBehaviorAction" xmi:id="_Zw5IYLUWEeyiM_nmpdDFKw" incoming="_5tr1ILUWEeyiM_nmpdDFKw" outgoing="_6TB94LUWEeyiM_nmpdDFKw" behavior="_iA9MALUUEeyiM_nmpdDFKw"/>
+                    <node xmi:type="uml:CallBehaviorAction" xmi:id="_hWwtkLUWEeyiM_nmpdDFKw" incoming="_6TB94LUWEeyiM_nmpdDFKw" outgoing="_63f84LUWEeyiM_nmpdDFKw" behavior="_uc9WgLUQEeyiM_nmpdDFKw"/>
+                    <node xmi:type="uml:OpaqueAction" xmi:id="_wvlRsLUWEeyiM_nmpdDFKw" name="Вывод результатов тестирования" incoming="_63f84LUWEeyiM_nmpdDFKw" outgoing="_7erRoLUWEeyiM_nmpdDFKw">
+                      <body>// TODO body of OpaqueAction1</body>
+                    </node>
+                  </ownedBehavior>
+                  <include xmi:id="_HdtHILHwEeyjNJ1OvHsKwg" addition="_CmPB4LHwEeyjNJ1OvHsKwg"/>
+                </packagedElement>
+                <packagedElement xmi:type="uml:UseCase" xmi:id="_CmPB4LHwEeyjNJ1OvHsKwg" name="Выбор группы" subject="_nkDVMLN0Eeyv9Jcoos8vSA">
+                  <ownedBehavior xmi:type="uml:Activity" xmi:id="_iA9MALUUEeyiM_nmpdDFKw" name="Выбор группы activity" node="_jJ5xELUUEeyiM_nmpdDFKw _kuCdULUUEeyiM_nmpdDFKw _m1TEwLUUEeyiM_nmpdDFKw _pq5_8LUUEeyiM_nmpdDFKw">
+                    <edge xmi:type="uml:ControlFlow" xmi:id="_vqzF0LUUEeyiM_nmpdDFKw" target="_m1TEwLUUEeyiM_nmpdDFKw" source="_jJ5xELUUEeyiM_nmpdDFKw">
+                      <guard xmi:type="uml:LiteralBoolean" xmi:id="_vqzF0bUUEeyiM_nmpdDFKw" name="Начало_To_Выбрать группу_guard" value="true"/>
+                      <weight xmi:type="uml:LiteralInteger" xmi:id="_vqzF0rUUEeyiM_nmpdDFKw" name="Начало_To_Выбрать группу_weight"/>
+                    </edge>
+                    <edge xmi:type="uml:ControlFlow" xmi:id="_wKBYcLUUEeyiM_nmpdDFKw" target="_pq5_8LUUEeyiM_nmpdDFKw" source="_m1TEwLUUEeyiM_nmpdDFKw">
+                      <guard xmi:type="uml:LiteralBoolean" xmi:id="_wKBYcbUUEeyiM_nmpdDFKw" name="Выбрать группу_To_Группа [выбрана]_guard" value="true"/>
+                      <weight xmi:type="uml:LiteralInteger" xmi:id="_wKBYcrUUEeyiM_nmpdDFKw" name="Выбрать группу_To_Группа [выбрана]_weight"/>
+                    </edge>
+                    <edge xmi:type="uml:ControlFlow" xmi:id="_w5nCULUUEeyiM_nmpdDFKw" target="_kuCdULUUEeyiM_nmpdDFKw" source="_pq5_8LUUEeyiM_nmpdDFKw">
+                      <guard xmi:type="uml:LiteralBoolean" xmi:id="_w5nCUbUUEeyiM_nmpdDFKw" name="Группа [выбрана]_To_Конец_guard" value="true"/>
+                      <weight xmi:type="uml:LiteralInteger" xmi:id="_w5npYLUUEeyiM_nmpdDFKw" name="Группа [выбрана]_To_Конец_weight"/>
+                    </edge>
+                    <node xmi:type="uml:InitialNode" xmi:id="_jJ5xELUUEeyiM_nmpdDFKw" name="Начало" outgoing="_vqzF0LUUEeyiM_nmpdDFKw"/>
+                    <node xmi:type="uml:ActivityFinalNode" xmi:id="_kuCdULUUEeyiM_nmpdDFKw" name="Конец" incoming="_w5nCULUUEeyiM_nmpdDFKw"/>
+                    <node xmi:type="uml:OpaqueAction" xmi:id="_m1TEwLUUEeyiM_nmpdDFKw" name="Выбрать группу" incoming="_vqzF0LUUEeyiM_nmpdDFKw" outgoing="_wKBYcLUUEeyiM_nmpdDFKw">
+                      <body>// TODO body of OpaqueAction1</body>
+                    </node>
+                    <node xmi:type="uml:DataStoreNode" xmi:id="_pq5_8LUUEeyiM_nmpdDFKw" name="Группа [выбрана]" incoming="_wKBYcLUUEeyiM_nmpdDFKw" outgoing="_w5nCULUUEeyiM_nmpdDFKw"/>
+                  </ownedBehavior>
+                </packagedElement>
+                <packagedElement xmi:type="uml:UseCase" xmi:id="_GKXscLHvEeyjNJ1OvHsKwg" name="Авторизация" subject="_P162gLN1Eeyv9Jcoos8vSA">
+                  <ownedBehavior xmi:type="uml:Activity" xmi:id="_lJhU4LUTEeyiM_nmpdDFKw" name="Авторизация activity" node="_okj4YLUTEeyiM_nmpdDFKw _s5c1ALUTEeyiM_nmpdDFKw _uTa4oLUTEeyiM_nmpdDFKw _vtlwkLUTEeyiM_nmpdDFKw">
+                    <edge xmi:type="uml:ControlFlow" xmi:id="_0b89ILUTEeyiM_nmpdDFKw" target="_uTa4oLUTEeyiM_nmpdDFKw" source="_okj4YLUTEeyiM_nmpdDFKw">
+                      <guard xmi:type="uml:LiteralBoolean" xmi:id="_0b89IbUTEeyiM_nmpdDFKw" name="Начало_To_Ввести логин_guard" value="true"/>
+                      <weight xmi:type="uml:LiteralInteger" xmi:id="_0b89IrUTEeyiM_nmpdDFKw" name="Начало_To_Ввести логин_weight"/>
+                    </edge>
+                    <edge xmi:type="uml:ControlFlow" xmi:id="_0-3c8LUTEeyiM_nmpdDFKw" target="_vtlwkLUTEeyiM_nmpdDFKw" source="_uTa4oLUTEeyiM_nmpdDFKw">
+                      <guard xmi:type="uml:LiteralBoolean" xmi:id="_0-3c8bUTEeyiM_nmpdDFKw" name="Ввести логин_To_Ввести пароль_guard" value="true"/>
+                      <weight xmi:type="uml:LiteralInteger" xmi:id="_0-3c8rUTEeyiM_nmpdDFKw" name="Ввести логин_To_Ввести пароль_weight"/>
+                    </edge>
+                    <edge xmi:type="uml:ControlFlow" xmi:id="_1gT9ILUTEeyiM_nmpdDFKw" target="_s5c1ALUTEeyiM_nmpdDFKw" source="_vtlwkLUTEeyiM_nmpdDFKw">
+                      <guard xmi:type="uml:LiteralBoolean" xmi:id="_1gUkMLUTEeyiM_nmpdDFKw" name="Ввести пароль_To_Конец_guard" value="true"/>
+                      <weight xmi:type="uml:LiteralInteger" xmi:id="_1gUkMbUTEeyiM_nmpdDFKw" name="Ввести пароль_To_Конец_weight"/>
+                    </edge>
+                    <node xmi:type="uml:InitialNode" xmi:id="_okj4YLUTEeyiM_nmpdDFKw" name="Начало" outgoing="_0b89ILUTEeyiM_nmpdDFKw"/>
+                    <node xmi:type="uml:ActivityFinalNode" xmi:id="_s5c1ALUTEeyiM_nmpdDFKw" name="Конец" incoming="_1gT9ILUTEeyiM_nmpdDFKw"/>
+                    <node xmi:type="uml:OpaqueAction" xmi:id="_uTa4oLUTEeyiM_nmpdDFKw" name="Ввести логин" incoming="_0b89ILUTEeyiM_nmpdDFKw" outgoing="_0-3c8LUTEeyiM_nmpdDFKw">
+                      <body>// TODO body of OpaqueAction1</body>
+                    </node>
+                    <node xmi:type="uml:OpaqueAction" xmi:id="_vtlwkLUTEeyiM_nmpdDFKw" name="Ввести пароль" incoming="_0-3c8LUTEeyiM_nmpdDFKw" outgoing="_1gT9ILUTEeyiM_nmpdDFKw">
+                      <body>// TODO body of OpaqueAction2</body>
+                    </node>
+                  </ownedBehavior>
+                </packagedElement>
+                <packagedElement xmi:type="uml:UseCase" xmi:id="_nNmK4LHxEeyjNJ1OvHsKwg" name="Прохождение тестирования" subject="_Y4VSMLN1Eeyv9Jcoos8vSA">
+                  <ownedBehavior xmi:type="uml:Activity" xmi:id="_OztMoLUXEeyiM_nmpdDFKw" name="Прохождение тестирования activity" node="_P8QwILUXEeyiM_nmpdDFKw _SJsRALUXEeyiM_nmpdDFKw _XRtTsLUXEeyiM_nmpdDFKw _YExvYLUXEeyiM_nmpdDFKw _cOvOYLUXEeyiM_nmpdDFKw">
+                    <edge xmi:type="uml:ControlFlow" xmi:id="_lZOoALUXEeyiM_nmpdDFKw" target="_XRtTsLUXEeyiM_nmpdDFKw" source="_P8QwILUXEeyiM_nmpdDFKw">
+                      <guard xmi:type="uml:LiteralBoolean" xmi:id="_lZOoAbUXEeyiM_nmpdDFKw" name="Начало_To__guard" value="true"/>
+                      <weight xmi:type="uml:LiteralInteger" xmi:id="_lZOoArUXEeyiM_nmpdDFKw" name="Начало_To__weight"/>
+                    </edge>
+                    <edge xmi:type="uml:ControlFlow" xmi:id="_mJLeQLUXEeyiM_nmpdDFKw" target="_YExvYLUXEeyiM_nmpdDFKw" source="_XRtTsLUXEeyiM_nmpdDFKw">
+                      <guard xmi:type="uml:LiteralBoolean" xmi:id="_mJLeQbUXEeyiM_nmpdDFKw" name="_To_Пройти тест_guard" value="true"/>
+                      <weight xmi:type="uml:LiteralInteger" xmi:id="_mJLeQrUXEeyiM_nmpdDFKw" name="_To_Пройти тест_weight"/>
+                    </edge>
+                    <edge xmi:type="uml:ControlFlow" xmi:id="_mxBhYLUXEeyiM_nmpdDFKw" target="_cOvOYLUXEeyiM_nmpdDFKw" source="_YExvYLUXEeyiM_nmpdDFKw">
+                      <guard xmi:type="uml:LiteralBoolean" xmi:id="_mxCIcLUXEeyiM_nmpdDFKw" name="Пройти тест_To_Тест [результат сохранен]_guard" value="true"/>
+                      <weight xmi:type="uml:LiteralInteger" xmi:id="_mxCIcbUXEeyiM_nmpdDFKw" name="Пройти тест_To_Тест [результат сохранен]_weight"/>
+                    </edge>
+                    <edge xmi:type="uml:ControlFlow" xmi:id="_nennMLUXEeyiM_nmpdDFKw" target="_SJsRALUXEeyiM_nmpdDFKw" source="_cOvOYLUXEeyiM_nmpdDFKw">
+                      <guard xmi:type="uml:LiteralBoolean" xmi:id="_nennMbUXEeyiM_nmpdDFKw" name="Тест [результат сохранен]_To_Конец_guard" value="true"/>
+                      <weight xmi:type="uml:LiteralInteger" xmi:id="_nennMrUXEeyiM_nmpdDFKw" name="Тест [результат сохранен]_To_Конец_weight"/>
+                    </edge>
+                    <node xmi:type="uml:InitialNode" xmi:id="_P8QwILUXEeyiM_nmpdDFKw" name="Начало" outgoing="_lZOoALUXEeyiM_nmpdDFKw"/>
+                    <node xmi:type="uml:ActivityFinalNode" xmi:id="_SJsRALUXEeyiM_nmpdDFKw" name="Конец" incoming="_nennMLUXEeyiM_nmpdDFKw"/>
+                    <node xmi:type="uml:CallBehaviorAction" xmi:id="_XRtTsLUXEeyiM_nmpdDFKw" incoming="_lZOoALUXEeyiM_nmpdDFKw" outgoing="_mJLeQLUXEeyiM_nmpdDFKw" behavior="_uc9WgLUQEeyiM_nmpdDFKw"/>
+                    <node xmi:type="uml:OpaqueAction" xmi:id="_YExvYLUXEeyiM_nmpdDFKw" name="Пройти тест" incoming="_mJLeQLUXEeyiM_nmpdDFKw" outgoing="_mxBhYLUXEeyiM_nmpdDFKw">
+                      <body>// TODO body of OpaqueAction1</body>
+                    </node>
+                    <node xmi:type="uml:DataStoreNode" xmi:id="_cOvOYLUXEeyiM_nmpdDFKw" name="Тест [результат сохранен]" incoming="_mxBhYLUXEeyiM_nmpdDFKw" outgoing="_nennMLUXEeyiM_nmpdDFKw"/>
+                  </ownedBehavior>
+                  <include xmi:id="_eVkhgLN2Eeyv9Jcoos8vSA" addition="_pa6-ELHxEeyjNJ1OvHsKwg"/>
+                </packagedElement>
+                <packagedElement xmi:type="uml:UseCase" xmi:id="_fHzsMbN1Eeyv9Jcoos8vSA" name="Авторизация" subject="_fHzsMLN1Eeyv9Jcoos8vSA"/>
+                <packagedElement xmi:type="uml:UseCase" xmi:id="_0MfqQLHxEeyjNJ1OvHsKwg" name="Назначение даты теста" subject="_9_XPMLN1Eeyv9Jcoos8vSA">
+                  <ownedBehavior xmi:type="uml:Activity" xmi:id="_kjgIoLUREeyiM_nmpdDFKw" name="Назначение даты теста activity" node="_mZidMLUREeyiM_nmpdDFKw _wnXjILUREeyiM_nmpdDFKw _yzn_ULUREeyiM_nmpdDFKw _19_pkLUREeyiM_nmpdDFKw _3h9WsLUREeyiM_nmpdDFKw _Rw5IwLUSEeyiM_nmpdDFKw _V8HzELUSEeyiM_nmpdDFKw _c6wZILUSEeyiM_nmpdDFKw">
+                    <edge xmi:type="uml:ControlFlow" xmi:id="_hoBZgLUSEeyiM_nmpdDFKw" target="_yzn_ULUREeyiM_nmpdDFKw" source="_mZidMLUREeyiM_nmpdDFKw">
+                      <guard xmi:type="uml:LiteralBoolean" xmi:id="_hoBZgbUSEeyiM_nmpdDFKw" name="Начало_To_Выбрать дисциплину_guard" value="true"/>
+                      <weight xmi:type="uml:LiteralInteger" xmi:id="_hoBZgrUSEeyiM_nmpdDFKw" name="Начало_To_Выбрать дисциплину_weight"/>
+                    </edge>
+                    <edge xmi:type="uml:ControlFlow" xmi:id="_iJUIsLUSEeyiM_nmpdDFKw" target="_Rw5IwLUSEeyiM_nmpdDFKw" source="_yzn_ULUREeyiM_nmpdDFKw">
+                      <guard xmi:type="uml:LiteralBoolean" xmi:id="_iJUvwLUSEeyiM_nmpdDFKw" name="Выбрать дисциплину_To_Дисциплина [выбрана]_guard" value="true"/>
+                      <weight xmi:type="uml:LiteralInteger" xmi:id="_iJUvwbUSEeyiM_nmpdDFKw" name="Выбрать дисциплину_To_Дисциплина [выбрана]_weight"/>
+                    </edge>
+                    <edge xmi:type="uml:ControlFlow" xmi:id="_ipcaQLUSEeyiM_nmpdDFKw" target="_19_pkLUREeyiM_nmpdDFKw" source="_Rw5IwLUSEeyiM_nmpdDFKw">
+                      <guard xmi:type="uml:LiteralBoolean" xmi:id="_ipcaQbUSEeyiM_nmpdDFKw" name="Дисциплина [выбрана]_To_Выбрать тест_guard" value="true"/>
+                      <weight xmi:type="uml:LiteralInteger" xmi:id="_ipcaQrUSEeyiM_nmpdDFKw" name="Дисциплина [выбрана]_To_Выбрать тест_weight"/>
+                    </edge>
+                    <edge xmi:type="uml:ControlFlow" xmi:id="_jPJvYLUSEeyiM_nmpdDFKw" target="_V8HzELUSEeyiM_nmpdDFKw" source="_19_pkLUREeyiM_nmpdDFKw">
+                      <guard xmi:type="uml:LiteralBoolean" xmi:id="_jPJvYbUSEeyiM_nmpdDFKw" name="Выбрать тест_To_Тест [выбран]_guard" value="true"/>
+                      <weight xmi:type="uml:LiteralInteger" xmi:id="_jPJvYrUSEeyiM_nmpdDFKw" name="Выбрать тест_To_Тест [выбран]_weight"/>
+                    </edge>
+                    <edge xmi:type="uml:ControlFlow" xmi:id="_jxHM8LUSEeyiM_nmpdDFKw" target="_3h9WsLUREeyiM_nmpdDFKw" source="_V8HzELUSEeyiM_nmpdDFKw">
+                      <guard xmi:type="uml:LiteralBoolean" xmi:id="_jxHM8bUSEeyiM_nmpdDFKw" name="Тест [выбран]_To_Надначить дату тестирования_guard" value="true"/>
+                      <weight xmi:type="uml:LiteralInteger" xmi:id="_jxH0ALUSEeyiM_nmpdDFKw" name="Тест [выбран]_To_Надначить дату тестирования_weight"/>
+                    </edge>
+                    <edge xmi:type="uml:ControlFlow" xmi:id="_kSn-kLUSEeyiM_nmpdDFKw" target="_c6wZILUSEeyiM_nmpdDFKw" source="_3h9WsLUREeyiM_nmpdDFKw">
+                      <guard xmi:type="uml:LiteralBoolean" xmi:id="_kSn-kbUSEeyiM_nmpdDFKw" name="Надначить дату тестирования_To_Тест [назначена дата]_guard" value="true"/>
+                      <weight xmi:type="uml:LiteralInteger" xmi:id="_kSn-krUSEeyiM_nmpdDFKw" name="Надначить дату тестирования_To_Тест [назначена дата]_weight"/>
+                    </edge>
+                    <edge xmi:type="uml:ControlFlow" xmi:id="_kyg_kLUSEeyiM_nmpdDFKw" target="_wnXjILUREeyiM_nmpdDFKw" source="_c6wZILUSEeyiM_nmpdDFKw">
+                      <guard xmi:type="uml:LiteralBoolean" xmi:id="_kyg_kbUSEeyiM_nmpdDFKw" name="Тест [назначена дата]_To_Конец_guard" value="true"/>
+                      <weight xmi:type="uml:LiteralInteger" xmi:id="_kyhmoLUSEeyiM_nmpdDFKw" name="Тест [назначена дата]_To_Конец_weight"/>
+                    </edge>
+                    <node xmi:type="uml:InitialNode" xmi:id="_mZidMLUREeyiM_nmpdDFKw" name="Начало" outgoing="_hoBZgLUSEeyiM_nmpdDFKw"/>
+                    <node xmi:type="uml:ActivityFinalNode" xmi:id="_wnXjILUREeyiM_nmpdDFKw" name="Конец" incoming="_kyg_kLUSEeyiM_nmpdDFKw"/>
+                    <node xmi:type="uml:OpaqueAction" xmi:id="_yzn_ULUREeyiM_nmpdDFKw" name="Выбрать дисциплину" incoming="_hoBZgLUSEeyiM_nmpdDFKw" outgoing="_iJUIsLUSEeyiM_nmpdDFKw">
+                      <body>// TODO body of OpaqueAction1</body>
+                    </node>
+                    <node xmi:type="uml:OpaqueAction" xmi:id="_19_pkLUREeyiM_nmpdDFKw" name="Выбрать тест" incoming="_ipcaQLUSEeyiM_nmpdDFKw" outgoing="_jPJvYLUSEeyiM_nmpdDFKw">
+                      <body>// TODO body of OpaqueAction2</body>
+                    </node>
+                    <node xmi:type="uml:OpaqueAction" xmi:id="_3h9WsLUREeyiM_nmpdDFKw" name="Назначить дату тестирования" incoming="_jxHM8LUSEeyiM_nmpdDFKw" outgoing="_kSn-kLUSEeyiM_nmpdDFKw">
+                      <body>// TODO body of OpaqueAction3</body>
+                    </node>
+                    <node xmi:type="uml:DataStoreNode" xmi:id="_Rw5IwLUSEeyiM_nmpdDFKw" name="Дисциплина [выбрана]" incoming="_iJUIsLUSEeyiM_nmpdDFKw" outgoing="_ipcaQLUSEeyiM_nmpdDFKw"/>
+                    <node xmi:type="uml:DataStoreNode" xmi:id="_V8HzELUSEeyiM_nmpdDFKw" name="Тест [выбран]" incoming="_jPJvYLUSEeyiM_nmpdDFKw" outgoing="_jxHM8LUSEeyiM_nmpdDFKw"/>
+                    <node xmi:type="uml:DataStoreNode" xmi:id="_c6wZILUSEeyiM_nmpdDFKw" name="Тест [назначена дата]" incoming="_kSn-kLUSEeyiM_nmpdDFKw" outgoing="_kyg_kLUSEeyiM_nmpdDFKw"/>
+                  </ownedBehavior>
+                  <include xmi:id="_w6-kQLHzEeyjNJ1OvHsKwg" addition="_pa6-ELHxEeyjNJ1OvHsKwg"/>
+                </packagedElement>
+                <packagedElement xmi:type="uml:UseCase" xmi:id="_pa6-ELHxEeyjNJ1OvHsKwg" name="Выбор теста" subject="_9_XPMLN1Eeyv9Jcoos8vSA">
+                  <ownedBehavior xmi:type="uml:Activity" xmi:id="_uc9WgLUQEeyiM_nmpdDFKw" name="Выбор теста activity" node="_5CgY4LUQEeyiM_nmpdDFKw _7YLPwLUQEeyiM_nmpdDFKw _-4k0YLUQEeyiM_nmpdDFKw _CDvv4LUREeyiM_nmpdDFKw _EDahkLUREeyiM_nmpdDFKw _KRbjALUREeyiM_nmpdDFKw">
+                    <edge xmi:type="uml:ControlFlow" xmi:id="_NSncELUREeyiM_nmpdDFKw" target="_7YLPwLUQEeyiM_nmpdDFKw" source="_5CgY4LUQEeyiM_nmpdDFKw">
+                      <guard xmi:type="uml:LiteralBoolean" xmi:id="_NSoDILUREeyiM_nmpdDFKw" name="Начало_To_Выбрать дисциплину_guard" value="true"/>
+                      <weight xmi:type="uml:LiteralInteger" xmi:id="_NSoDIbUREeyiM_nmpdDFKw" name="Начало_To_Выбрать дисциплину_weight"/>
+                    </edge>
+                    <edge xmi:type="uml:ControlFlow" xmi:id="_NzacALUREeyiM_nmpdDFKw" target="_-4k0YLUQEeyiM_nmpdDFKw" source="_7YLPwLUQEeyiM_nmpdDFKw">
+                      <guard xmi:type="uml:LiteralBoolean" xmi:id="_NzacAbUREeyiM_nmpdDFKw" name="Выбрать дисциплину_To_Дисциплина [выбрана]_guard" value="true"/>
+                      <weight xmi:type="uml:LiteralInteger" xmi:id="_NzbDELUREeyiM_nmpdDFKw" name="Выбрать дисциплину_To_Дисциплина [выбрана]_weight"/>
+                    </edge>
+                    <edge xmi:type="uml:ControlFlow" xmi:id="_OT9kULUREeyiM_nmpdDFKw" target="_CDvv4LUREeyiM_nmpdDFKw" source="_-4k0YLUQEeyiM_nmpdDFKw">
+                      <guard xmi:type="uml:LiteralBoolean" xmi:id="_OT-LYLUREeyiM_nmpdDFKw" name="Дисциплина [выбрана]_To_Выбрать тест_guard" value="true"/>
+                      <weight xmi:type="uml:LiteralInteger" xmi:id="_OT-LYbUREeyiM_nmpdDFKw" name="Дисциплина [выбрана]_To_Выбрать тест_weight"/>
+                    </edge>
+                    <edge xmi:type="uml:ControlFlow" xmi:id="_PXXiELUREeyiM_nmpdDFKw" target="_EDahkLUREeyiM_nmpdDFKw" source="_CDvv4LUREeyiM_nmpdDFKw">
+                      <guard xmi:type="uml:LiteralBoolean" xmi:id="_PXXiEbUREeyiM_nmpdDFKw" name="Выбрать тест_To_Тест [выбран]_guard" value="true"/>
+                      <weight xmi:type="uml:LiteralInteger" xmi:id="_PXXiErUREeyiM_nmpdDFKw" name="Выбрать тест_To_Тест [выбран]_weight"/>
+                    </edge>
+                    <edge xmi:type="uml:ControlFlow" xmi:id="_P6SB4LUREeyiM_nmpdDFKw" target="_KRbjALUREeyiM_nmpdDFKw" source="_EDahkLUREeyiM_nmpdDFKw">
+                      <guard xmi:type="uml:LiteralBoolean" xmi:id="_P6SB4bUREeyiM_nmpdDFKw" name="Тест [выбран]_To_Конец_guard" value="true"/>
+                      <weight xmi:type="uml:LiteralInteger" xmi:id="_P6SB4rUREeyiM_nmpdDFKw" name="Тест [выбран]_To_Конец_weight"/>
+                    </edge>
+                    <node xmi:type="uml:InitialNode" xmi:id="_5CgY4LUQEeyiM_nmpdDFKw" name="Начало" outgoing="_NSncELUREeyiM_nmpdDFKw"/>
+                    <node xmi:type="uml:OpaqueAction" xmi:id="_7YLPwLUQEeyiM_nmpdDFKw" name="Выбрать дисциплину" incoming="_NSncELUREeyiM_nmpdDFKw" outgoing="_NzacALUREeyiM_nmpdDFKw">
+                      <body>// TODO body of OpaqueAction1</body>
+                    </node>
+                    <node xmi:type="uml:DataStoreNode" xmi:id="_-4k0YLUQEeyiM_nmpdDFKw" name="Дисциплина [выбрана]" incoming="_NzacALUREeyiM_nmpdDFKw" outgoing="_OT9kULUREeyiM_nmpdDFKw"/>
+                    <node xmi:type="uml:OpaqueAction" xmi:id="_CDvv4LUREeyiM_nmpdDFKw" name="Выбрать тест" incoming="_OT9kULUREeyiM_nmpdDFKw" outgoing="_PXXiELUREeyiM_nmpdDFKw">
+                      <body>// TODO body of OpaqueAction2</body>
+                    </node>
+                    <node xmi:type="uml:DataStoreNode" xmi:id="_EDahkLUREeyiM_nmpdDFKw" name="Тест [выбран]" incoming="_PXXiELUREeyiM_nmpdDFKw" outgoing="_P6SB4LUREeyiM_nmpdDFKw"/>
+                    <node xmi:type="uml:ActivityFinalNode" xmi:id="_KRbjALUREeyiM_nmpdDFKw" name="Конец" incoming="_P6SB4LUREeyiM_nmpdDFKw"/>
+                  </ownedBehavior>
+                </packagedElement>
+                <packagedElement xmi:type="uml:UseCase" xmi:id="_yU2zMLHxEeyjNJ1OvHsKwg" name="Создание теста" subject="_9_XPMLN1Eeyv9Jcoos8vSA">
+                  <ownedBehavior xmi:type="uml:Activity" xmi:id="_XBsGQLUNEeyiM_nmpdDFKw" name="Создание теста activity" node="_qxstELUNEeyiM_nmpdDFKw _rBx7ALUOEeyiM_nmpdDFKw _64ulkLUOEeyiM_nmpdDFKw _ABhEULUPEeyiM_nmpdDFKw _DwzZgLUPEeyiM_nmpdDFKw _UuzLsLUPEeyiM_nmpdDFKw _AZYVQLUQEeyiM_nmpdDFKw _NUKwsLUQEeyiM_nmpdDFKw _XD-d4LUQEeyiM_nmpdDFKw">
+                    <edge xmi:type="uml:ControlFlow" xmi:id="_M3pCMLUPEeyiM_nmpdDFKw" target="_rBx7ALUOEeyiM_nmpdDFKw" source="_qxstELUNEeyiM_nmpdDFKw">
+                      <guard xmi:type="uml:LiteralBoolean" xmi:id="_M3ppQLUPEeyiM_nmpdDFKw" name="Начало_To_Выбрать дисциплину_guard" value="true"/>
+                      <weight xmi:type="uml:LiteralInteger" xmi:id="_M3qQULUPEeyiM_nmpdDFKw" name="Начало_To_Выбрать дисциплину_weight"/>
+                    </edge>
+                    <edge xmi:type="uml:ControlFlow" xmi:id="_NVVDwLUPEeyiM_nmpdDFKw" target="_64ulkLUOEeyiM_nmpdDFKw" source="_rBx7ALUOEeyiM_nmpdDFKw">
+                      <guard xmi:type="uml:LiteralBoolean" xmi:id="_NVVDwbUPEeyiM_nmpdDFKw" name="Выбрать дисциплину_To_Добавить вопрос_guard" value="true"/>
+                      <weight xmi:type="uml:LiteralInteger" xmi:id="_NVVDwrUPEeyiM_nmpdDFKw" name="Выбрать дисциплину_To_Добавить вопрос_weight"/>
+                    </edge>
+                    <edge xmi:type="uml:ControlFlow" xmi:id="_N0ym8LUPEeyiM_nmpdDFKw" target="_ABhEULUPEeyiM_nmpdDFKw" source="_64ulkLUOEeyiM_nmpdDFKw">
+                      <guard xmi:type="uml:LiteralBoolean" xmi:id="_N0ym8bUPEeyiM_nmpdDFKw" name="Добавить вопрос_To_Добавить ответ_guard" value="true"/>
+                      <weight xmi:type="uml:LiteralInteger" xmi:id="_N0ym8rUPEeyiM_nmpdDFKw" name="Добавить вопрос_To_Добавить ответ_weight"/>
+                    </edge>
+                    <edge xmi:type="uml:ControlFlow" xmi:id="_OrBEULUPEeyiM_nmpdDFKw" name="Да" target="_ABhEULUPEeyiM_nmpdDFKw" source="_DwzZgLUPEeyiM_nmpdDFKw">
+                      <guard xmi:type="uml:LiteralBoolean" xmi:id="_OrBEUbUPEeyiM_nmpdDFKw" name="Добавить еще один ответ_To_Добавить ответ_guard" value="true"/>
+                      <weight xmi:type="uml:LiteralInteger" xmi:id="_OrBEUrUPEeyiM_nmpdDFKw" name="Добавить еще один ответ_To_Добавить ответ_weight"/>
+                    </edge>
+                    <edge xmi:type="uml:ControlFlow" xmi:id="_TGOEULUPEeyiM_nmpdDFKw" target="_DwzZgLUPEeyiM_nmpdDFKw" source="_ABhEULUPEeyiM_nmpdDFKw">
+                      <guard xmi:type="uml:LiteralBoolean" xmi:id="_TGOEUbUPEeyiM_nmpdDFKw" name="Добавить ответ_To_Добавить еще один ответ_guard" value="true"/>
+                      <weight xmi:type="uml:LiteralInteger" xmi:id="_TGOEUrUPEeyiM_nmpdDFKw" name="Добавить ответ_To_Добавить еще один ответ_weight"/>
+                    </edge>
+                    <edge xmi:type="uml:ControlFlow" xmi:id="_uiCgQLUPEeyiM_nmpdDFKw" name="Да" target="_64ulkLUOEeyiM_nmpdDFKw" source="_UuzLsLUPEeyiM_nmpdDFKw">
+                      <guard xmi:type="uml:LiteralBoolean" xmi:id="_uiCgQbUPEeyiM_nmpdDFKw" name="Добавить еще один вопрос_To_Добавить вопрос_guard" value="true"/>
+                      <weight xmi:type="uml:LiteralInteger" xmi:id="_uiCgQrUPEeyiM_nmpdDFKw" name="Добавить еще один вопрос_To_Добавить вопрос_weight"/>
+                    </edge>
+                    <edge xmi:type="uml:ControlFlow" xmi:id="_IBOQYLUQEeyiM_nmpdDFKw" name="Нет" target="_AZYVQLUQEeyiM_nmpdDFKw" source="_DwzZgLUPEeyiM_nmpdDFKw">
+                      <guard xmi:type="uml:LiteralBoolean" xmi:id="_IBO3cLUQEeyiM_nmpdDFKw" name="Добавить еще один ответ_To_Вопрос [создан]_guard" value="true"/>
+                      <weight xmi:type="uml:LiteralInteger" xmi:id="_IBO3cbUQEeyiM_nmpdDFKw" name="Добавить еще один ответ_To_Вопрос [создан]_weight"/>
+                    </edge>
+                    <edge xmi:type="uml:ControlFlow" xmi:id="_KiDOYLUQEeyiM_nmpdDFKw" target="_UuzLsLUPEeyiM_nmpdDFKw" source="_AZYVQLUQEeyiM_nmpdDFKw">
+                      <guard xmi:type="uml:LiteralBoolean" xmi:id="_KiDOYbUQEeyiM_nmpdDFKw" name="Вопрос [создан]_To_Добавить еще один вопрос_guard" value="true"/>
+                      <weight xmi:type="uml:LiteralInteger" xmi:id="_KiDOYrUQEeyiM_nmpdDFKw" name="Вопрос [создан]_To_Добавить еще один вопрос_weight"/>
+                    </edge>
+                    <edge xmi:type="uml:ControlFlow" xmi:id="_RXrpcLUQEeyiM_nmpdDFKw" name="Нет" target="_NUKwsLUQEeyiM_nmpdDFKw" source="_UuzLsLUPEeyiM_nmpdDFKw">
+                      <guard xmi:type="uml:LiteralBoolean" xmi:id="_RXrpcbUQEeyiM_nmpdDFKw" name="Добавить еще один вопрос_To_Тест создан_guard" value="true"/>
+                      <weight xmi:type="uml:LiteralInteger" xmi:id="_RXrpcrUQEeyiM_nmpdDFKw" name="Добавить еще один вопрос_To_Тест создан_weight"/>
+                    </edge>
+                    <edge xmi:type="uml:ControlFlow" xmi:id="_aMdRwLUQEeyiM_nmpdDFKw" target="_XD-d4LUQEeyiM_nmpdDFKw" source="_NUKwsLUQEeyiM_nmpdDFKw">
+                      <guard xmi:type="uml:LiteralBoolean" xmi:id="_aMdRwbUQEeyiM_nmpdDFKw" name="Тест создан_To_Конец_guard" value="true"/>
+                      <weight xmi:type="uml:LiteralInteger" xmi:id="_aMdRwrUQEeyiM_nmpdDFKw" name="Тест создан_To_Конец_weight"/>
+                    </edge>
+                    <node xmi:type="uml:InitialNode" xmi:id="_qxstELUNEeyiM_nmpdDFKw" name="Начало" outgoing="_M3pCMLUPEeyiM_nmpdDFKw"/>
+                    <node xmi:type="uml:OpaqueAction" xmi:id="_rBx7ALUOEeyiM_nmpdDFKw" name="Выбрать дисциплину" incoming="_M3pCMLUPEeyiM_nmpdDFKw" outgoing="_NVVDwLUPEeyiM_nmpdDFKw">
+                      <body>// TODO body of OpaqueAction1</body>
+                    </node>
+                    <node xmi:type="uml:OpaqueAction" xmi:id="_64ulkLUOEeyiM_nmpdDFKw" name="Добавить вопрос" incoming="_NVVDwLUPEeyiM_nmpdDFKw _uiCgQLUPEeyiM_nmpdDFKw" outgoing="_N0ym8LUPEeyiM_nmpdDFKw">
+                      <body>// TODO body of OpaqueAction2</body>
+                    </node>
+                    <node xmi:type="uml:OpaqueAction" xmi:id="_ABhEULUPEeyiM_nmpdDFKw" name="Добавить ответ" incoming="_N0ym8LUPEeyiM_nmpdDFKw _OrBEULUPEeyiM_nmpdDFKw" outgoing="_TGOEULUPEeyiM_nmpdDFKw">
+                      <body>// TODO body of OpaqueAction3</body>
+                    </node>
+                    <node xmi:type="uml:DecisionNode" xmi:id="_DwzZgLUPEeyiM_nmpdDFKw" name="Добавить еще один ответ" incoming="_TGOEULUPEeyiM_nmpdDFKw" outgoing="_OrBEULUPEeyiM_nmpdDFKw _IBOQYLUQEeyiM_nmpdDFKw"/>
+                    <node xmi:type="uml:DecisionNode" xmi:id="_UuzLsLUPEeyiM_nmpdDFKw" name="Добавить еще один вопрос" incoming="_KiDOYLUQEeyiM_nmpdDFKw" outgoing="_uiCgQLUPEeyiM_nmpdDFKw _RXrpcLUQEeyiM_nmpdDFKw"/>
+                    <node xmi:type="uml:DataStoreNode" xmi:id="_AZYVQLUQEeyiM_nmpdDFKw" name="Вопрос [создан]" incoming="_IBOQYLUQEeyiM_nmpdDFKw" outgoing="_KiDOYLUQEeyiM_nmpdDFKw"/>
+                    <node xmi:type="uml:DataStoreNode" xmi:id="_NUKwsLUQEeyiM_nmpdDFKw" name="Тест создан" incoming="_RXrpcLUQEeyiM_nmpdDFKw" outgoing="_aMdRwLUQEeyiM_nmpdDFKw"/>
+                    <node xmi:type="uml:ActivityFinalNode" xmi:id="_XD-d4LUQEeyiM_nmpdDFKw" name="Конец" incoming="_aMdRwLUQEeyiM_nmpdDFKw"/>
+                  </ownedBehavior>
+                </packagedElement>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Association" xmi:id="_xozQYLHvEeyjNJ1OvHsKwg" memberEnd="_xoz3cLHvEeyjNJ1OvHsKwg _xoz3cbHvEeyjNJ1OvHsKwg">
+                <ownedEnd xmi:id="_xoz3cLHvEeyjNJ1OvHsKwg" type="_jkmV0LHvEeyjNJ1OvHsKwg" association="_xozQYLHvEeyjNJ1OvHsKwg"/>
+                <ownedEnd xmi:id="_xoz3cbHvEeyjNJ1OvHsKwg" type="_GKXscLHvEeyjNJ1OvHsKwg" association="_xozQYLHvEeyjNJ1OvHsKwg"/>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Association" xmi:id="_kdUboLHxEeyjNJ1OvHsKwg" memberEnd="_kdUbobHxEeyjNJ1OvHsKwg _kdUborHxEeyjNJ1OvHsKwg">
+                <ownedEnd xmi:id="_kdUbobHxEeyjNJ1OvHsKwg" type="_56HbwLHuEeyjNJ1OvHsKwg" association="_kdUboLHxEeyjNJ1OvHsKwg"/>
+                <ownedEnd xmi:id="_kdUborHxEeyjNJ1OvHsKwg" type="_76mFwLHuEeyjNJ1OvHsKwg" association="_kdUboLHxEeyjNJ1OvHsKwg"/>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Association" xmi:id="_l9ZHQLHxEeyjNJ1OvHsKwg" memberEnd="_l9ZHQbHxEeyjNJ1OvHsKwg _l9ZHQrHxEeyjNJ1OvHsKwg">
+                <ownedEnd xmi:id="_l9ZHQbHxEeyjNJ1OvHsKwg" type="_56HbwLHuEeyjNJ1OvHsKwg" association="_l9ZHQLHxEeyjNJ1OvHsKwg"/>
+                <ownedEnd xmi:id="_l9ZHQrHxEeyjNJ1OvHsKwg" type="_LAzP4LHvEeyjNJ1OvHsKwg" association="_l9ZHQLHxEeyjNJ1OvHsKwg"/>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Association" xmi:id="_vlrQILHxEeyjNJ1OvHsKwg" memberEnd="_vlr3MLHxEeyjNJ1OvHsKwg _vlr3MbHxEeyjNJ1OvHsKwg">
+                <ownedEnd xmi:id="_vlr3MLHxEeyjNJ1OvHsKwg" type="_qoQl0LHvEeyjNJ1OvHsKwg" association="_vlrQILHxEeyjNJ1OvHsKwg"/>
+                <ownedEnd xmi:id="_vlr3MbHxEeyjNJ1OvHsKwg" type="_nNmK4LHxEeyjNJ1OvHsKwg" association="_vlrQILHxEeyjNJ1OvHsKwg"/>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Association" xmi:id="_Loy8oLHyEeyjNJ1OvHsKwg" memberEnd="_LozjsLHyEeyjNJ1OvHsKwg _LozjsbHyEeyjNJ1OvHsKwg">
+                <ownedEnd xmi:id="_LozjsLHyEeyjNJ1OvHsKwg" type="_rw5B0LHvEeyjNJ1OvHsKwg" association="_Loy8oLHyEeyjNJ1OvHsKwg"/>
+                <ownedEnd xmi:id="_LozjsbHyEeyjNJ1OvHsKwg" type="_0MfqQLHxEeyjNJ1OvHsKwg" association="_Loy8oLHyEeyjNJ1OvHsKwg"/>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Association" xmi:id="_MQjgMLHyEeyjNJ1OvHsKwg" memberEnd="_MQjgMbHyEeyjNJ1OvHsKwg _MQjgMrHyEeyjNJ1OvHsKwg">
+                <ownedEnd xmi:id="_MQjgMbHyEeyjNJ1OvHsKwg" type="_rw5B0LHvEeyjNJ1OvHsKwg" association="_MQjgMLHyEeyjNJ1OvHsKwg"/>
+                <ownedEnd xmi:id="_MQjgMrHyEeyjNJ1OvHsKwg" type="_yU2zMLHxEeyjNJ1OvHsKwg" association="_MQjgMLHyEeyjNJ1OvHsKwg"/>
+              </packagedElement>
+              <packagedElement xmi:type="uml:StateMachine" xmi:id="_Z3xWwLW2EeyzJ9efqggZcQ" name="Поведение">
+                <region xmi:id="_afMjILW2EeyzJ9efqggZcQ" name="Region1"/>
+              </packagedElement>
+            </packagedElement>
+            <packagedElement xmi:type="uml:StateMachine" xmi:id="_zpVBUNYYEeyNxqOfgswTDw" name="Controller">
+              <region xmi:id="_0E7YMNYYEeyNxqOfgswTDw" name="Region1"/>
+            </packagedElement>
+          </packagedElement>
+        </nestedClassifier>
+        <nestedClassifier xmi:type="uml:Component" xmi:id="_JF4OANYPEeyNxqOfgswTDw" name="View">
+          <packagedElement xmi:type="uml:Component" xmi:id="_PVnGsNYPEeyNxqOfgswTDw" name="administratorMenu.fxml"/>
+          <packagedElement xmi:type="uml:Component" xmi:id="_WJJQANYPEeyNxqOfgswTDw" name="appointDateTest"/>
+          <packagedElement xmi:type="uml:Component" xmi:id="_YCEggNYPEeyNxqOfgswTDw" name="authentication"/>
+          <packagedElement xmi:type="uml:Component" xmi:id="_Z60x4NYPEeyNxqOfgswTDw" name="changeDisciplines"/>
+          <packagedElement xmi:type="uml:Component" xmi:id="_bzKzkNYPEeyNxqOfgswTDw" name="changeDropTest"/>
+          <packagedElement xmi:type="uml:Component" xmi:id="_djzqwNYPEeyNxqOfgswTDw" name="changeGroups"/>
+          <packagedElement xmi:type="uml:Component" xmi:id="_fP1HsNYPEeyNxqOfgswTDw" name="createNewTest"/>
+          <packagedElement xmi:type="uml:Component" xmi:id="_gW6EgNYPEeyNxqOfgswTDw" name="createQuestion"/>
+          <packagedElement xmi:type="uml:Component" xmi:id="_itlA8NYPEeyNxqOfgswTDw" name="deleteUser"/>
+          <packagedElement xmi:type="uml:Component" xmi:id="_kaTBcNYPEeyNxqOfgswTDw" name="passTest"/>
+          <packagedElement xmi:type="uml:Component" xmi:id="_mAx3ENYPEeyNxqOfgswTDw" name="regStudent"/>
+          <packagedElement xmi:type="uml:Component" xmi:id="_nwHGsNYPEeyNxqOfgswTDw" name="regTeacher"/>
+          <packagedElement xmi:type="uml:Component" xmi:id="_ovk_oNYPEeyNxqOfgswTDw" name="showResultTest"/>
+          <packagedElement xmi:type="uml:Component" xmi:id="_qTIdENYPEeyNxqOfgswTDw" name="studentMenu"/>
+          <packagedElement xmi:type="uml:Component" xmi:id="_r6omYNYPEeyNxqOfgswTDw" name="teacherMenu"/>
+        </nestedClassifier>
+        <nestedClassifier xmi:type="uml:Component" xmi:id="_vsKP4NYSEeyNxqOfgswTDw" name="SystemTesting.exe"/>
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_rsFDQNXeEeyA99UA3-3t5Q" name="Authentication" visibility="public">
+          <ownedOperation xmi:id="_uApG4NXeEeyA99UA3-3t5Q" name="main"/>
+        </nestedClassifier>
+      </nestedNode>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_eWXPcNYXEeyNxqOfgswTDw" name="Локальная сеть" memberEnd="_eWX2gNYXEeyNxqOfgswTDw _eWX2g9YXEeyNxqOfgswTDw" navigableOwnedEnd="_eWX2gNYXEeyNxqOfgswTDw _eWX2g9YXEeyNxqOfgswTDw">
+    <ownedEnd xmi:id="_eWX2gNYXEeyNxqOfgswTDw" name="сервер базы данныхs" type="_2v2DINYUEeyNxqOfgswTDw" association="_eWXPcNYXEeyNxqOfgswTDw">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_eWX2gdYXEeyNxqOfgswTDw"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_eWX2gtYXEeyNxqOfgswTDw" value="*"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_eWX2g9YXEeyNxqOfgswTDw" name="персональный компьютерs" type="_6-6EkNYUEeyNxqOfgswTDw" association="_eWXPcNYXEeyNxqOfgswTDw">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_eWX2hNYXEeyNxqOfgswTDw"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_eWX2hdYXEeyNxqOfgswTDw" value="*"/>
+    </ownedEnd>
+  </packagedElement>
+</uml:Model>

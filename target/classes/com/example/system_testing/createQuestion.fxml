@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="700.0" style="-fx-background-color: #2E3348;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.system_testing.controller.CreateQuestionController">
+    <children>
+        <AnchorPane layoutX="14.0" layoutY="115.0" prefHeight="271.0" prefWidth="671.0" style="-fx-background-color: #fafafa;">
+            <children>
+                <Label layoutX="249.0" layoutY="14.0" text="Добавление вопроса" textFill="#393565">
+                    <font>
+                        <Font name="Times New Roman" size="20.0" />
+                    </font>
+                </Label>
+                <Button fx:id="saveQuestionInTest_button" layoutX="59.0" layoutY="232.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="141.0" text="Сохранить" />
+                <TextField fx:id="nameQuestion_textField" layoutX="59.0" layoutY="51.0" prefHeight="25.0" prefWidth="583.0" promptText="Вопрос" />
+                <TextField fx:id="answerOne_textField" layoutX="59.0" layoutY="95.0" prefHeight="25.0" prefWidth="518.0" promptText="Ответ 1" />
+                <TextField fx:id="answerTwo_textField" layoutX="59.0" layoutY="126.0" prefHeight="25.0" prefWidth="518.0" promptText="Ответ 2" />
+                <TextField fx:id="answerThree_textField" layoutX="59.0" layoutY="157.0" prefHeight="25.0" prefWidth="518.0" promptText="Ответ 3" />
+                <TextField fx:id="answerFour_textField" layoutX="59.0" layoutY="188.0" prefHeight="25.0" prefWidth="518.0" promptText="Ответ 4" />
+                <CheckBox fx:id="isTrueOneCheck" layoutX="584.0" layoutY="99.0" mnemonicParsing="false" text="Верно" />
+                <CheckBox fx:id="isTrueTwoCheck" layoutX="584.0" layoutY="130.0" mnemonicParsing="false" text="Верно" />
+                <CheckBox fx:id="isTrueThreeCheck" layoutX="584.0" layoutY="161.0" mnemonicParsing="false" text="Верно" />
+                <CheckBox fx:id="isTrueFourCheck" layoutX="584.0" layoutY="192.0" mnemonicParsing="false" text="Верно" />
+            <Button fx:id="exit_button" layoutX="436.0" layoutY="232.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="141.0" text="Выйти" />
+            </children>
+        </AnchorPane>
+        <Label layoutX="177.0" layoutY="40.0" text="Система тестирования" textFill="WHITE">
+            <font>
+                <Font name="Times New Roman" size="36.0" />
+            </font>
+        </Label>
+    </children>
+</AnchorPane>

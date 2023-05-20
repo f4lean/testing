@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="700.0" style="-fx-background-color: #2E3348;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.system_testing.controller.ChangeDropTestController">
+    <children>
+        <AnchorPane layoutX="14.0" layoutY="115.0" prefHeight="271.0" prefWidth="671.0" style="-fx-background-color: #fafafa;">
+            <children>
+                <Label layoutX="243.0" layoutY="3.0" text="Редактирование теста" textFill="#393565">
+                    <font>
+                        <Font name="Times New Roman" size="20.0" />
+                    </font>
+                </Label>
+                <Button fx:id="goBack_button" layoutX="14.0" layoutY="232.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="150.0" text="Назад" />
+                <Button fx:id="addQuestion_button" layoutX="14.0" layoutY="119.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="150.0" text="Добавить вопрос" />
+                <Button fx:id="deleteQuestion_button" layoutX="14.0" layoutY="151.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="150.0" text="Удалить вопрос" />
+                <Button fx:id="deleteTest_button" layoutX="14.0" layoutY="183.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="150.0" text="Удалить тест" />
+            <ComboBox fx:id="choiceTest_comboBox" editable="true" layoutX="14.0" layoutY="37.0" prefWidth="150.0" promptText="Тест" />
+            <ComboBox fx:id="choiceQuestion_comboBox" editable="true" layoutX="14.0" layoutY="69.0" prefWidth="150.0" promptText="Вопрос" />
+            <Text fx:id="nameQuestion_text" layoutX="189.0" layoutY="87.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="467.13671875">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Text>
+            <Text fx:id="nameAnswerOne_text" layoutX="189.0" layoutY="137.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="467.13671875">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Text>
+            <Text fx:id="nameAnswerTwo_text" layoutX="189.0" layoutY="172.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="467.13671875">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Text>
+            <Text fx:id="nameAnswerThree_text" layoutX="189.0" layoutY="208.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="467.13671875">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Text>
+            <Text fx:id="nameAnswerFour_text" layoutX="189.0" layoutY="243.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="467.13671875">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Text>
+            </children>
+        </AnchorPane>
+        <Label layoutX="177.0" layoutY="40.0" text="Система тестирования" textFill="WHITE">
+            <font>
+                <Font name="Times New Roman" size="36.0" />
+            </font>
+        </Label>
+    </children>
+</AnchorPane>

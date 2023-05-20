@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="700.0" style="-fx-background-color: #2E3348;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.system_testing.controller.AdministratorMenuController">
+    <children>
+        <AnchorPane layoutX="14.0" layoutY="115.0" prefHeight="271.0" prefWidth="671.0" style="-fx-background-color: #fafafa;">
+         <children>
+            <Button fx:id="regTeacher_button" layoutX="39.0" layoutY="130.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="225.0" text="Зарегистрировать преподавателя" />
+            <Button fx:id="regStudent_button" layoutX="39.0" layoutY="170.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="225.0" text="Зарегистрировать студента" />
+            <Button fx:id="showResultTest_button" layoutX="39.0" layoutY="77.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="225.0" text="Результаты группы" />
+            <Button fx:id="exitFromSystem_button" layoutX="408.0" layoutY="211.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="225.0" text="Выйти из системы" />
+            <Label layoutX="264.0" layoutY="32.0" text="Администратор">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Button fx:id="deleteUser_button" layoutX="39.0" layoutY="211.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="225.0" text="Удалить пользователя" />
+            <Button fx:id="changeDisciplines_button" layoutX="408.0" layoutY="130.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="225.0" text="Изменить дисциплины" />
+            <Button fx:id="changeGroups_button" layoutX="408.0" layoutY="169.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="225.0" text="Изменить группы" />
+            <Button fx:id="showResultTestItem_button" layoutX="408.0" layoutY="77.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="225.0" text="Результаты студентов" />
+         </children>
+        </AnchorPane>
+        <Label layoutX="177.0" layoutY="40.0" text="Система тестирования" textFill="WHITE">
+            <font>
+                <Font name="Times New Roman" size="36.0" />
+            </font>
+        </Label>
+    </children>
+</AnchorPane>
